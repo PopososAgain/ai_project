@@ -1,0 +1,221 @@
+
+wandb: WARNING The save_model argument by default saves the model in the HDF5 format that cannot save custom objects like subclassed models and custom layers. This behavior will be deprecated in a future release in favor of the SavedModel format. Meanwhile, the HDF5 model is saved as W&B files and the SavedModel as W&B Artifacts.
+Epoch 1/100
+48/48 [==============================] - 0s 2ms/step - loss: 3747.5347 - mae: 48.5561 - val_loss: 3110.7146 - val_mae: 44.5311
+Epoch 2/100
+48/48 [==============================] - 0s 598us/step - loss: 3691.1052 - mae: 48.2045 - val_loss: 3048.8342 - val_mae: 44.4131
+Epoch 3/100
+48/48 [==============================] - 0s 631us/step - loss: 3566.2954 - mae: 47.4906 - val_loss: 3044.0916 - val_mae: 44.9748
+Epoch 4/100
+48/48 [==============================] - 0s 611us/step - loss: 3493.1892 - mae: 47.1485 - val_loss: 3113.5249 - val_mae: 45.5337
+Epoch 5/100
+48/48 [==============================] - 0s 593us/step - loss: 3484.9487 - mae: 47.2172 - val_loss: 3135.2727 - val_mae: 45.6395
+Epoch 6/100
+48/48 [==============================] - 0s 618us/step - loss: 3479.2144 - mae: 47.2417 - val_loss: 3142.1648 - val_mae: 45.7338
+Epoch 7/100
+48/48 [==============================] - 0s 611us/step - loss: 3489.0088 - mae: 47.2696 - val_loss: 3163.0325 - val_mae: 45.8154
+Epoch 8/100
+48/48 [==============================] - 0s 630us/step - loss: 3478.0593 - mae: 47.2427 - val_loss: 3149.9351 - val_mae: 45.7115
+Epoch 9/100
+48/48 [==============================] - 0s 599us/step - loss: 3475.0989 - mae: 47.2296 - val_loss: 3144.1396 - val_mae: 45.6899
+Epoch 10/100
+48/48 [==============================] - 0s 593us/step - loss: 3475.6128 - mae: 47.2201 - val_loss: 3156.5925 - val_mae: 45.7045
+Epoch 11/100
+48/48 [==============================] - 0s 608us/step - loss: 3478.6670 - mae: 47.2816 - val_loss: 3143.9436 - val_mae: 45.6712
+Epoch 12/100
+48/48 [==============================] - 0s 586us/step - loss: 3475.4521 - mae: 47.2072 - val_loss: 3169.9907 - val_mae: 45.7383
+Epoch 13/100
+48/48 [==============================] - 0s 637us/step - loss: 3471.8140 - mae: 47.2332 - val_loss: 3159.0112 - val_mae: 45.7013
+Epoch 14/100
+48/48 [==============================] - 0s 641us/step - loss: 3473.7437 - mae: 47.2195 - val_loss: 3162.9368 - val_mae: 45.7781
+Epoch 15/100
+48/48 [==============================] - 0s 637us/step - loss: 3476.4136 - mae: 47.2517 - val_loss: 3178.7427 - val_mae: 45.7992
+Epoch 16/100
+48/48 [==============================] - 0s 594us/step - loss: 3476.0525 - mae: 47.2489 - val_loss: 3210.2046 - val_mae: 46.0073
+Epoch 17/100
+48/48 [==============================] - 0s 591us/step - loss: 3476.8594 - mae: 47.2945 - val_loss: 3183.4758 - val_mae: 45.8513
+Epoch 18/100
+48/48 [==============================] - 0s 583us/step - loss: 3486.1111 - mae: 47.3446 - val_loss: 3163.5137 - val_mae: 45.7403
+Epoch 19/100
+48/48 [==============================] - 0s 578us/step - loss: 3477.1348 - mae: 47.2738 - val_loss: 3162.1895 - val_mae: 45.7055
+Epoch 20/100
+48/48 [==============================] - 0s 584us/step - loss: 3480.6240 - mae: 47.2989 - val_loss: 3156.9739 - val_mae: 45.6981
+Epoch 21/100
+48/48 [==============================] - 0s 666us/step - loss: 3472.1233 - mae: 47.2711 - val_loss: 3173.4849 - val_mae: 45.7590
+Epoch 22/100
+48/48 [==============================] - 0s 644us/step - loss: 3471.6038 - mae: 47.2646 - val_loss: 3204.0789 - val_mae: 45.9634
+Epoch 23/100
+48/48 [==============================] - 0s 643us/step - loss: 3475.0220 - mae: 47.2926 - val_loss: 3168.5315 - val_mae: 45.6610
+Epoch 24/100
+48/48 [==============================] - 0s 600us/step - loss: 3474.5393 - mae: 47.2534 - val_loss: 3174.2407 - val_mae: 45.7516
+Epoch 25/100
+48/48 [==============================] - 0s 592us/step - loss: 3472.9368 - mae: 47.2359 - val_loss: 3161.0249 - val_mae: 45.7109
+Epoch 26/100
+48/48 [==============================] - 0s 594us/step - loss: 3471.5376 - mae: 47.2306 - val_loss: 3204.4607 - val_mae: 45.9467
+Epoch 27/100
+48/48 [==============================] - 0s 593us/step - loss: 3468.9714 - mae: 47.2248 - val_loss: 3168.9617 - val_mae: 45.7235
+Epoch 28/100
+48/48 [==============================] - 0s 653us/step - loss: 3470.6282 - mae: 47.2539 - val_loss: 3179.0918 - val_mae: 45.7847
+Epoch 29/100
+48/48 [==============================] - 0s 643us/step - loss: 3483.7383 - mae: 47.3632 - val_loss: 3191.6465 - val_mae: 45.8963
+Epoch 30/100
+48/48 [==============================] - 0s 650us/step - loss: 3473.6860 - mae: 47.2742 - val_loss: 3205.2441 - val_mae: 45.9961
+Epoch 31/100
+48/48 [==============================] - 0s 609us/step - loss: 3472.9917 - mae: 47.2688 - val_loss: 3189.2339 - val_mae: 45.8463
+Epoch 32/100
+48/48 [==============================] - 0s 613us/step - loss: 3469.4573 - mae: 47.2497 - val_loss: 3180.0557 - val_mae: 45.8277
+Epoch 33/100
+48/48 [==============================] - 0s 618us/step - loss: 3467.3884 - mae: 47.2299 - val_loss: 3200.2507 - val_mae: 45.9283
+Epoch 34/100
+48/48 [==============================] - 0s 672us/step - loss: 3472.4331 - mae: 47.3084 - val_loss: 3196.0239 - val_mae: 45.8770
+Epoch 35/100
+48/48 [==============================] - 0s 653us/step - loss: 3467.2195 - mae: 47.2109 - val_loss: 3181.2988 - val_mae: 45.7866
+Epoch 36/100
+48/48 [==============================] - 0s 643us/step - loss: 3468.0559 - mae: 47.2520 - val_loss: 3192.0337 - val_mae: 45.8681
+Epoch 37/100
+48/48 [==============================] - 0s 603us/step - loss: 3472.2822 - mae: 47.2329 - val_loss: 3203.5874 - val_mae: 45.9362
+Epoch 38/100
+48/48 [==============================] - 0s 595us/step - loss: 3476.0454 - mae: 47.2853 - val_loss: 3190.6641 - val_mae: 45.7942
+Epoch 39/100
+48/48 [==============================] - 0s 589us/step - loss: 3469.3823 - mae: 47.2518 - val_loss: 3171.2651 - val_mae: 45.7735
+Epoch 40/100
+48/48 [==============================] - 0s 591us/step - loss: 3466.9780 - mae: 47.2329 - val_loss: 3194.2705 - val_mae: 45.8859
+Epoch 41/100
+48/48 [==============================] - 0s 591us/step - loss: 3474.5220 - mae: 47.2320 - val_loss: 3172.5212 - val_mae: 45.7663
+Epoch 42/100
+48/48 [==============================] - 0s 635us/step - loss: 3472.2673 - mae: 47.2740 - val_loss: 3217.0005 - val_mae: 46.0462
+Epoch 43/100
+48/48 [==============================] - 0s 631us/step - loss: 3471.3215 - mae: 47.2534 - val_loss: 3172.4702 - val_mae: 45.7610
+Epoch 44/100
+48/48 [==============================] - 0s 628us/step - loss: 3467.1555 - mae: 47.2513 - val_loss: 3199.4062 - val_mae: 45.9207
+Epoch 45/100
+48/48 [==============================] - 0s 596us/step - loss: 3475.7009 - mae: 47.2921 - val_loss: 3215.9783 - val_mae: 46.0358
+Epoch 46/100
+48/48 [==============================] - 0s 586us/step - loss: 3471.2795 - mae: 47.2073 - val_loss: 3224.8140 - val_mae: 46.0918
+Epoch 47/100
+48/48 [==============================] - 0s 584us/step - loss: 3468.0107 - mae: 47.2729 - val_loss: 3209.6677 - val_mae: 45.9863
+Epoch 48/100
+48/48 [==============================] - 0s 580us/step - loss: 3471.0447 - mae: 47.2958 - val_loss: 3204.0032 - val_mae: 45.9407
+Epoch 49/100
+48/48 [==============================] - 0s 626us/step - loss: 3469.7209 - mae: 47.2116 - val_loss: 3213.6479 - val_mae: 45.9802
+Epoch 50/100
+48/48 [==============================] - 0s 626us/step - loss: 3471.3115 - mae: 47.2477 - val_loss: 3176.4756 - val_mae: 45.7554
+Epoch 51/100
+48/48 [==============================] - 0s 629us/step - loss: 3469.6685 - mae: 47.2290 - val_loss: 3192.4404 - val_mae: 45.8632
+Epoch 52/100
+48/48 [==============================] - 0s 598us/step - loss: 3475.1423 - mae: 47.3008 - val_loss: 3191.6709 - val_mae: 45.8483
+Epoch 53/100
+48/48 [==============================] - 0s 585us/step - loss: 3466.1865 - mae: 47.2451 - val_loss: 3204.8669 - val_mae: 45.9317
+Epoch 54/100
+48/48 [==============================] - 0s 586us/step - loss: 3467.0291 - mae: 47.2654 - val_loss: 3196.0442 - val_mae: 45.8747
+Epoch 55/100
+48/48 [==============================] - 0s 586us/step - loss: 3467.0986 - mae: 47.2463 - val_loss: 3182.5454 - val_mae: 45.8376
+Epoch 56/100
+48/48 [==============================] - 0s 628us/step - loss: 3470.8579 - mae: 47.2453 - val_loss: 3194.5735 - val_mae: 45.8673
+Epoch 57/100
+48/48 [==============================] - 0s 614us/step - loss: 3467.3965 - mae: 47.2353 - val_loss: 3210.8538 - val_mae: 46.0014
+Epoch 58/100
+48/48 [==============================] - 0s 636us/step - loss: 3466.3289 - mae: 47.2354 - val_loss: 3215.7024 - val_mae: 45.9921
+Epoch 59/100
+48/48 [==============================] - 0s 581us/step - loss: 3465.8560 - mae: 47.1951 - val_loss: 3181.2163 - val_mae: 45.8239
+Epoch 60/100
+48/48 [==============================] - 0s 587us/step - loss: 3467.3999 - mae: 47.2623 - val_loss: 3197.7034 - val_mae: 45.8876
+Epoch 61/100
+48/48 [==============================] - 0s 583us/step - loss: 3466.7444 - mae: 47.2131 - val_loss: 3225.6443 - val_mae: 46.1101
+Epoch 62/100
+48/48 [==============================] - 0s 580us/step - loss: 3472.2253 - mae: 47.2792 - val_loss: 3182.9470 - val_mae: 45.8650
+Epoch 63/100
+48/48 [==============================] - 0s 636us/step - loss: 3468.2769 - mae: 47.2087 - val_loss: 3196.3860 - val_mae: 45.8733
+Epoch 64/100
+48/48 [==============================] - 0s 637us/step - loss: 3471.2659 - mae: 47.2655 - val_loss: 3174.2515 - val_mae: 45.7842
+Epoch 65/100
+48/48 [==============================] - 0s 628us/step - loss: 3467.8677 - mae: 47.2329 - val_loss: 3204.6926 - val_mae: 45.9590
+Epoch 66/100
+48/48 [==============================] - 0s 596us/step - loss: 3465.5447 - mae: 47.2166 - val_loss: 3210.0701 - val_mae: 45.9747
+Epoch 67/100
+48/48 [==============================] - 0s 589us/step - loss: 3465.8843 - mae: 47.2184 - val_loss: 3181.8250 - val_mae: 45.7830
+Epoch 68/100
+48/48 [==============================] - 0s 581us/step - loss: 3465.8560 - mae: 47.1951 - val_loss: 3181.2163 - val_mae: 45.8239
+Epoch 69/100
+48/48 [==============================] - 0s 572us/step - loss: 3467.4597 - mae: 47.2295 - val_loss: 3195.1743 - val_mae: 45.8835
+Epoch 70/100
+48/48 [==============================] - 0s 625us/step - loss: 3478.4990 - mae: 47.2343 - val_loss: 3231.9766 - val_mae: 46.1645
+Epoch 71/100
+48/48 [==============================] - 0s 677us/step - loss: 3469.2678 - mae: 47.2392 - val_loss: 3205.0305 - val_mae: 45.9694
+Epoch 72/100
+48/48 [==============================] - 0s 652us/step - loss: 3473.6235 - mae: 47.3216 - val_loss: 3223.1548 - val_mae: 46.1058
+Epoch 73/100
+48/48 [==============================] - 0s 620us/step - loss: 3472.0945 - mae: 47.2817 - val_loss: 3188.8955 - val_mae: 45.8272
+Epoch 74/100
+48/48 [==============================] - 0s 607us/step - loss: 3470.9565 - mae: 47.2588 - val_loss: 3195.7651 - val_mae: 45.9361
+Epoch 75/100
+48/48 [==============================] - 0s 624us/step - loss: 3465.9624 - mae: 47.2179 - val_loss: 3206.3813 - val_mae: 45.9944
+Epoch 76/100
+48/48 [==============================] - 0s 627us/step - loss: 3470.5093 - mae: 47.1937 - val_loss: 3176.0969 - val_mae: 45.7637
+Epoch 77/100
+48/48 [==============================] - 0s 657us/step - loss: 3465.8855 - mae: 47.2381 - val_loss: 3180.5493 - val_mae: 45.7852
+Epoch 78/100
+48/48 [==============================] - 0s 668us/step - loss: 3466.1028 - mae: 47.2330 - val_loss: 3203.3479 - val_mae: 45.9715
+Epoch 79/100
+48/48 [==============================] - 0s 721us/step - loss: 3469.7251 - mae: 47.2093 - val_loss: 3190.2808 - val_mae: 45.8723
+Epoch 80/100
+48/48 [==============================] - 0s 784us/step - loss: 3465.9089 - mae: 47.2274 - val_loss: 3205.4612 - val_mae: 46.0270
+Epoch 81/100
+48/48 [==============================] - 0s 664us/step - loss: 3465.5139 - mae: 47.2302 - val_loss: 3203.9644 - val_mae: 45.9481
+Epoch 82/100
+48/48 [==============================] - 0s 633us/step - loss: 3463.5469 - mae: 47.2047 - val_loss: 3194.6958 - val_mae: 45.9053
+Epoch 83/100
+48/48 [==============================] - 0s 619us/step - loss: 3463.2617 - mae: 47.2236 - val_loss: 3206.4260 - val_mae: 45.9848
+Epoch 84/100
+48/48 [==============================] - 0s 670us/step - loss: 3465.6987 - mae: 47.1657 - val_loss: 3196.5205 - val_mae: 45.9420
+Epoch 85/100
+48/48 [==============================] - 0s 705us/step - loss: 3466.3765 - mae: 47.2374 - val_loss: 3216.0073 - val_mae: 46.0742
+Epoch 86/100
+48/48 [==============================] - 0s 699us/step - loss: 3466.0452 - mae: 47.2168 - val_loss: 3193.8755 - val_mae: 45.8903
+Epoch 87/100
+48/48 [==============================] - 0s 652us/step - loss: 3465.5334 - mae: 47.2031 - val_loss: 3191.4688 - val_mae: 45.8807
+Epoch 88/100
+48/48 [==============================] - 0s 631us/step - loss: 3463.9475 - mae: 47.2282 - val_loss: 3205.0796 - val_mae: 45.9971
+Epoch 89/100
+48/48 [==============================] - 0s 585us/step - loss: 3465.0520 - mae: 47.2597 - val_loss: 3225.8784 - val_mae: 46.1397
+Epoch 90/100
+48/48 [==============================] - 0s 581us/step - loss: 3462.7219 - mae: 47.1799 - val_loss: 3194.7920 - val_mae: 45.9134
+Epoch 91/100
+48/48 [==============================] - 0s 600us/step - loss: 3469.6885 - mae: 47.1628 - val_loss: 3197.0693 - val_mae: 45.9072
+Epoch 92/100
+48/48 [==============================] - 0s 639us/step - loss: 3463.1409 - mae: 47.2022 - val_loss: 3197.5474 - val_mae: 45.9333
+Epoch 93/100
+48/48 [==============================] - 0s 620us/step - loss: 3463.6260 - mae: 47.2156 - val_loss: 3208.4600 - val_mae: 46.0184
+Epoch 94/100
+48/48 [==============================] - 0s 623us/step - loss: 3462.6909 - mae: 47.1968 - val_loss: 3215.4055 - val_mae: 46.0597
+Epoch 95/100
+48/48 [==============================] - 0s 588us/step - loss: 3466.6143 - mae: 47.2074 - val_loss: 3224.4238 - val_mae: 46.1144
+Epoch 96/100
+48/48 [==============================] - 0s 586us/step - loss: 3469.8240 - mae: 47.2124 - val_loss: 3226.7051 - val_mae: 46.1155
+Epoch 97/100
+48/48 [==============================] - 0s 579us/step - loss: 3465.0149 - mae: 47.2314 - val_loss: 3226.9409 - val_mae: 46.1690
+Epoch 98/100
+48/48 [==============================] - 0s 571us/step - loss: 3466.3767 - mae: 47.1577 - val_loss: 3196.3494 - val_mae: 45.9314
+Epoch 99/100
+48/48 [==============================] - 0s 634us/step - loss: 3469.0256 - mae: 47.2668 - val_loss: 3230.3518 - val_mae: 46.1795
+Epoch 100/100
+48/48 [==============================] - 0s 632us/step - loss: 3462.1980 - mae: 47.1630 - val_loss: 3208.4595 - val_mae: 46.0249
+7/7 [==============================] - 0s 436us/step - loss: 3912.6665 - mae: 48.9642
+Test Loss: 3912.66650390625, Test Mean Absolute Error: 48.96416091918945
+4/4 [==============================] - 0s 388us/step
+Traceback (most recent call last):
+  File "/Users/marcinbialek/PycharmProjects/ai_project_lab/main.py", line 58, in <module>
+    plot_regression_line(model, X_test, y_test)
+  File "/Users/marcinbialek/PycharmProjects/ai_project_lab/main.py", line 23, in plot_regression_line
+    plt.show()
+  File "/Users/marcinbialek/PycharmProjects/ai_project_lab/.venv/lib/python3.11/site-packages/matplotlib/pyplot.py", line 527, in show
+    return _get_backend_mod().show(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/marcinbialek/PycharmProjects/ai_project_lab/.venv/lib/python3.11/site-packages/matplotlib/backend_bases.py", line 3448, in show
+    cls.mainloop()
+  File "/Users/marcinbialek/PycharmProjects/ai_project_lab/.venv/lib/python3.11/site-packages/matplotlib/backends/backend_macosx.py", line 182, in start_main_loop
+    with _maybe_allow_interrupt():
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/contextlib.py", line 144, in __exit__
+    next(self.gen)
+  File "/Users/marcinbialek/PycharmProjects/ai_project_lab/.venv/lib/python3.11/site-packages/matplotlib/backends/backend_macosx.py", line 229, in _maybe_allow_interrupt
+    old_sigint_handler(*handler_args)

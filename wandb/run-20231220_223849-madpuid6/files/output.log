@@ -1,0 +1,58 @@
+wandb: WARNING The save_model argument by default saves the model in the HDF5 format that cannot save custom objects like subclassed models and custom layers. This behavior will be deprecated in a future release in favor of the SavedModel format. Meanwhile, the HDF5 model is saved as W&B files and the SavedModel as W&B Artifacts.
+/Users/marcinbialek/PycharmProjects/ai_project_lab/.venv/lib/python3.11/site-packages/keras/src/engine/training.py:3103: UserWarning: You are saving your model as an HDF5 file via `model.save()`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')`.
+  saving_api.save_model(
+wandb: Adding directory to artifact (/Users/marcinbialek/PycharmProjects/ai_project_lab/wandb/run-20231220_223849-madpuid6/files/model-best)... Done. 0.0s
+Epoch 1/10
+ 1/25 [>.............................] - ETA: 2s - loss: 43734.5625
+/Users/marcinbialek/PycharmProjects/ai_project_lab/.venv/lib/python3.11/site-packages/keras/src/engine/training.py:3103: UserWarning: You are saving your model as an HDF5 file via `model.save()`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')`.
+  saving_api.save_model(
+25/25 [==============================] - 1s 21ms/step - loss: 37595.3281 - val_loss: 38586.1289
+Epoch 2/10
+ 1/25 [>.............................] - ETA: 0s - loss: 53671.0078
+/Users/marcinbialek/PycharmProjects/ai_project_lab/.venv/lib/python3.11/site-packages/keras/src/engine/training.py:3103: UserWarning: You are saving your model as an HDF5 file via `model.save()`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')`.
+  saving_api.save_model(
+25/25 [==============================] - 0s 15ms/step - loss: 37463.4062 - val_loss: 38447.0664
+Epoch 3/10
+25/25 [==============================] - 0s 15ms/step - loss: 37303.4492 - val_loss: 38279.8984
+Epoch 4/10
+ 1/25 [>.............................] - ETA: 0s - loss: 43476.5469
+/Users/marcinbialek/PycharmProjects/ai_project_lab/.venv/lib/python3.11/site-packages/keras/src/engine/training.py:3103: UserWarning: You are saving your model as an HDF5 file via `model.save()`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')`.
+  saving_api.save_model(
+wandb: Adding directory to artifact (/Users/marcinbialek/PycharmProjects/ai_project_lab/wandb/run-20231220_223849-madpuid6/files/model-best)... Done. 0.0s
+/Users/marcinbialek/PycharmProjects/ai_project_lab/.venv/lib/python3.11/site-packages/keras/src/engine/training.py:3103: UserWarning: You are saving your model as an HDF5 file via `model.save()`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')`.
+  saving_api.save_model(
+25/25 [==============================] - 0s 15ms/step - loss: 37107.8047 - val_loss: 38064.4531
+Epoch 5/10
+ 1/25 [>.............................] - ETA: 0s - loss: 43168.6094
+/Users/marcinbialek/PycharmProjects/ai_project_lab/.venv/lib/python3.11/site-packages/keras/src/engine/training.py:3103: UserWarning: You are saving your model as an HDF5 file via `model.save()`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')`.
+  saving_api.save_model(
+25/25 [==============================] - 0s 15ms/step - loss: 36855.5508 - val_loss: 37779.9766
+Epoch 6/10
+ 1/25 [>.............................] - ETA: 0s - loss: 35927.1133
+/Users/marcinbialek/PycharmProjects/ai_project_lab/.venv/lib/python3.11/site-packages/keras/src/engine/training.py:3103: UserWarning: You are saving your model as an HDF5 file via `model.save()`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')`.
+  saving_api.save_model(
+25/25 [==============================] - 0s 14ms/step - loss: 36529.1016 - val_loss: 37417.5391
+Epoch 7/10
+ 1/25 [>.............................] - ETA: 0s - loss: 44811.1484
+/Users/marcinbialek/PycharmProjects/ai_project_lab/.venv/lib/python3.11/site-packages/keras/src/engine/training.py:3103: UserWarning: You are saving your model as an HDF5 file via `model.save()`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')`.
+  saving_api.save_model(
+25/25 [==============================] - 0s 15ms/step - loss: 36115.2422 - val_loss: 36968.7109
+Epoch 8/10
+25/25 [==============================] - 0s 14ms/step - loss: 35601.6719 - val_loss: 36419.2109
+Epoch 9/10
+ 1/25 [>.............................] - ETA: 0s - loss: 39314.2930
+/Users/marcinbialek/PycharmProjects/ai_project_lab/.venv/lib/python3.11/site-packages/keras/src/engine/training.py:3103: UserWarning: You are saving your model as an HDF5 file via `model.save()`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')`.
+  saving_api.save_model(
+25/25 [==============================] - 0s 14ms/step - loss: 35001.5547 - val_loss: 35737.7891
+Epoch 10/10
+ 1/25 [>.............................] - ETA: 0s - loss: 26838.6445
+/Users/marcinbialek/PycharmProjects/ai_project_lab/.venv/lib/python3.11/site-packages/keras/src/engine/training.py:3103: UserWarning: You are saving your model as an HDF5 file via `model.save()`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')`.
+  saving_api.save_model(
+25/25 [==============================] - 0s 15ms/step - loss: 34271.4648 - val_loss: 34976.1406
+7/7 [==============================] - 0s 345us/step
+1/1 [==============================] - 0s 9ms/step
+User Input: [[0.26532274 0.77368844 0.5982176  0.01611175 0.47739726 0.86173123
+  0.4828408  0.81836214 0.18621141 0.17587181 0.66899054 0.51902474
+  0.84367394 0.967977   0.44839375 0.39507381 0.40713236 0.15393888
+  0.53578173 0.98131295]]
+Model Prediction: [[16.36417]]

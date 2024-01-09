@@ -1,0 +1,467 @@
+2023-12-20 22:40:45,064 INFO    StreamThr :62827 [internal.py:wandb_internal():86] W&B internal server running at pid: 62827, started at: 2023-12-20 22:40:45.063892
+2023-12-20 22:40:45,065 DEBUG   HandlerThread:62827 [handler.py:handle_request():146] handle_request: status
+2023-12-20 22:40:45,070 INFO    WriterThread:62827 [datastore.py:open_for_write():85] open: /Users/marcinbialek/PycharmProjects/ai_project_lab/wandb/run-20231220_224045-cd8kwskp/run-cd8kwskp.wandb
+2023-12-20 22:40:45,070 DEBUG   SenderThread:62827 [sender.py:send():382] send: header
+2023-12-20 22:40:45,071 DEBUG   SenderThread:62827 [sender.py:send():382] send: run
+2023-12-20 22:40:45,531 INFO    SenderThread:62827 [dir_watcher.py:__init__():211] watching files in: /Users/marcinbialek/PycharmProjects/ai_project_lab/wandb/run-20231220_224045-cd8kwskp/files
+2023-12-20 22:40:45,531 INFO    SenderThread:62827 [sender.py:_start_run_threads():1136] run started: cd8kwskp with start time 1703108445.065296
+2023-12-20 22:40:45,536 DEBUG   HandlerThread:62827 [handler.py:handle_request():146] handle_request: check_version
+2023-12-20 22:40:45,536 DEBUG   SenderThread:62827 [sender.py:send_request():409] send_request: check_version
+2023-12-20 22:40:45,803 DEBUG   HandlerThread:62827 [handler.py:handle_request():146] handle_request: run_start
+2023-12-20 22:40:45,814 DEBUG   HandlerThread:62827 [system_info.py:__init__():32] System info init
+2023-12-20 22:40:45,814 DEBUG   HandlerThread:62827 [system_info.py:__init__():47] System info init done
+2023-12-20 22:40:45,814 INFO    HandlerThread:62827 [system_monitor.py:start():194] Starting system monitor
+2023-12-20 22:40:45,814 INFO    SystemMonitor:62827 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2023-12-20 22:40:45,814 INFO    HandlerThread:62827 [system_monitor.py:probe():214] Collecting system info
+2023-12-20 22:40:45,815 INFO    SystemMonitor:62827 [interfaces.py:start():190] Started cpu monitoring
+2023-12-20 22:40:45,815 DEBUG   HandlerThread:62827 [system_info.py:probe():196] Probing system
+2023-12-20 22:40:45,816 INFO    SystemMonitor:62827 [interfaces.py:start():190] Started disk monitoring
+2023-12-20 22:40:45,821 INFO    SystemMonitor:62827 [interfaces.py:start():190] Started gpuapple monitoring
+2023-12-20 22:40:45,823 INFO    SystemMonitor:62827 [interfaces.py:start():190] Started memory monitoring
+2023-12-20 22:40:45,824 INFO    SystemMonitor:62827 [interfaces.py:start():190] Started network monitoring
+2023-12-20 22:40:45,829 DEBUG   HandlerThread:62827 [gitlib.py:_init_repo():56] git repository is invalid
+2023-12-20 22:40:45,830 DEBUG   HandlerThread:62827 [system_info.py:probe():244] Probing system done
+2023-12-20 22:40:45,830 DEBUG   HandlerThread:62827 [system_monitor.py:probe():223] {'os': 'macOS-14.1-arm64-arm-64bit', 'python': '3.11.2', 'heartbeatAt': '2023-12-20T21:40:45.815992', 'startedAt': '2023-12-20T21:40:45.055942', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '/Users/marcinbialek/PycharmProjects/ai_project_lab/main.py', 'codePathLocal': 'main.py', 'codePath': 'main.py', 'host': '192.168.1.3', 'username': 'marcinbialek', 'executable': '/Users/marcinbialek/PycharmProjects/ai_project_lab/.venv/bin/python', 'cpu_count': 8, 'cpu_count_logical': 8, 'disk': {'/': {'total': 228.27386474609375, 'used': 9.569572448730469}}, 'gpuapple': {'type': 'arm', 'vendor': 'Apple'}, 'memory': {'total': 8.0}}
+2023-12-20 22:40:45,830 INFO    HandlerThread:62827 [system_monitor.py:probe():224] Finished collecting system info
+2023-12-20 22:40:45,830 INFO    HandlerThread:62827 [system_monitor.py:probe():227] Publishing system info
+2023-12-20 22:40:45,830 DEBUG   HandlerThread:62827 [system_info.py:_save_pip():52] Saving list of pip packages installed into the current environment
+2023-12-20 22:40:45,830 DEBUG   HandlerThread:62827 [system_info.py:_save_pip():68] Saving pip packages done
+2023-12-20 22:40:45,831 INFO    HandlerThread:62827 [system_monitor.py:probe():229] Finished publishing system info
+2023-12-20 22:40:45,835 DEBUG   SenderThread:62827 [sender.py:send():382] send: files
+2023-12-20 22:40:45,836 INFO    SenderThread:62827 [sender.py:_save_file():1392] saving file wandb-metadata.json with policy now
+2023-12-20 22:40:45,840 DEBUG   HandlerThread:62827 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-20 22:40:45,840 DEBUG   HandlerThread:62827 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-20 22:40:45,840 DEBUG   SenderThread:62827 [sender.py:send_request():409] send_request: stop_status
+2023-12-20 22:40:45,841 DEBUG   HandlerThread:62827 [handler.py:handle_request():146] handle_request: get_summary
+2023-12-20 22:40:46,069 DEBUG   SenderThread:62827 [sender.py:send():382] send: telemetry
+2023-12-20 22:40:46,069 DEBUG   SenderThread:62827 [sender.py:send():382] send: telemetry
+2023-12-20 22:40:46,069 DEBUG   SenderThread:62827 [sender.py:send():382] send: telemetry
+2023-12-20 22:40:46,069 DEBUG   SenderThread:62827 [sender.py:send():382] send: files
+2023-12-20 22:40:46,069 INFO    SenderThread:62827 [sender.py:_save_file():1392] saving file model-best.h5 with policy live
+2023-12-20 22:40:46,070 DEBUG   SenderThread:62827 [sender.py:send():382] send: telemetry
+2023-12-20 22:40:46,070 DEBUG   SenderThread:62827 [sender.py:send():382] send: files
+2023-12-20 22:40:46,070 INFO    SenderThread:62827 [sender.py:_save_file():1392] saving file media/graph/graph_summary_d0ad3a12b1c26ac157c5.graph.json with policy now
+2023-12-20 22:40:46,070 DEBUG   SenderThread:62827 [sender.py:send_request():409] send_request: summary_record
+2023-12-20 22:40:46,070 INFO    SenderThread:62827 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2023-12-20 22:40:46,080 DEBUG   HandlerThread:62827 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-20 22:40:46,080 DEBUG   HandlerThread:62827 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-20 22:40:46,081 DEBUG   SenderThread:62827 [sender.py:send():382] send: history
+2023-12-20 22:40:46,081 DEBUG   SenderThread:62827 [sender.py:send_request():409] send_request: summary_record
+2023-12-20 22:40:46,081 INFO    SenderThread:62827 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2023-12-20 22:40:46,081 DEBUG   SenderThread:62827 [sender.py:send_request():409] send_request: summary_record
+2023-12-20 22:40:46,081 INFO    SenderThread:62827 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2023-12-20 22:40:46,082 DEBUG   SenderThread:62827 [sender.py:send_request():409] send_request: summary_record
+2023-12-20 22:40:46,082 INFO    SenderThread:62827 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2023-12-20 22:40:46,466 INFO    wandb-upload_0:62827 [upload_job.py:push():131] Uploaded file /var/folders/p8/4_rxdkgx5kv0dn2b44y3f2qw0000gn/T/tmpj38qov9fwandb/fkf66n5c-wandb-metadata.json
+2023-12-20 22:40:46,500 DEBUG   HandlerThread:62827 [handler.py:handle_request():146] handle_request: log_artifact
+2023-12-20 22:40:46,500 DEBUG   SenderThread:62827 [sender.py:send_request():409] send_request: log_artifact
+2023-12-20 22:40:46,533 INFO    Thread-12 :62827 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/marcinbialek/PycharmProjects/ai_project_lab/wandb/run-20231220_224045-cd8kwskp/files/wandb-summary.json
+2023-12-20 22:40:46,533 INFO    Thread-12 :62827 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/marcinbialek/PycharmProjects/ai_project_lab/wandb/run-20231220_224045-cd8kwskp/files/requirements.txt
+2023-12-20 22:40:46,533 INFO    Thread-12 :62827 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/marcinbialek/PycharmProjects/ai_project_lab/wandb/run-20231220_224045-cd8kwskp/files/output.log
+2023-12-20 22:40:46,533 INFO    Thread-12 :62827 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/marcinbialek/PycharmProjects/ai_project_lab/wandb/run-20231220_224045-cd8kwskp/files/wandb-metadata.json
+2023-12-20 22:40:46,533 INFO    Thread-12 :62827 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/marcinbialek/PycharmProjects/ai_project_lab/wandb/run-20231220_224045-cd8kwskp/files/media/graph/graph_summary_d0ad3a12b1c26ac157c5.graph.json
+2023-12-20 22:40:46,533 INFO    Thread-12 :62827 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/marcinbialek/PycharmProjects/ai_project_lab/wandb/run-20231220_224045-cd8kwskp/files/model-best.h5
+2023-12-20 22:40:46,533 INFO    Thread-12 :62827 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/marcinbialek/PycharmProjects/ai_project_lab/wandb/run-20231220_224045-cd8kwskp/files/media/graph
+2023-12-20 22:40:46,533 INFO    Thread-12 :62827 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/marcinbialek/PycharmProjects/ai_project_lab/wandb/run-20231220_224045-cd8kwskp/files/media
+2023-12-20 22:40:46,534 INFO    wandb-upload_1:62827 [upload_job.py:push():131] Uploaded file /var/folders/p8/4_rxdkgx5kv0dn2b44y3f2qw0000gn/T/tmpj38qov9fwandb/e9lrrkxn-media/graph/graph_summary_d0ad3a12b1c26ac157c5.graph.json
+2023-12-20 22:40:46,534 DEBUG   HandlerThread:62827 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-20 22:40:46,535 DEBUG   HandlerThread:62827 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-20 22:40:46,860 DEBUG   HandlerThread:62827 [handler.py:handle_request():146] handle_request: log_artifact
+2023-12-20 22:40:46,898 DEBUG   HandlerThread:62827 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-20 22:40:46,898 DEBUG   HandlerThread:62827 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-20 22:40:46,995 INFO    wandb-upload_1:62827 [upload_job.py:push():131] Uploaded file /var/folders/p8/4_rxdkgx5kv0dn2b44y3f2qw0000gn/T/tmpj38qov9fwandb/ms4pfvaj-model-best.h5
+2023-12-20 22:40:47,014 INFO    wandb-upload_0:62827 [upload_job.py:push():131] Uploaded file /var/folders/p8/4_rxdkgx5kv0dn2b44y3f2qw0000gn/T/tmpj38qov9fwandb/9rh1yf2t-media/graph/graph_summary_d0ad3a12b1c26ac157c5.graph.json
+2023-12-20 22:40:47,219 DEBUG   HandlerThread:62827 [handler.py:handle_request():146] handle_request: log_artifact
+2023-12-20 22:40:47,256 DEBUG   HandlerThread:62827 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-20 22:40:47,256 DEBUG   HandlerThread:62827 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-20 22:40:47,537 INFO    Thread-12 :62827 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/marcinbialek/PycharmProjects/ai_project_lab/wandb/run-20231220_224045-cd8kwskp/files/model-best.h5
+2023-12-20 22:40:47,538 INFO    Thread-12 :62827 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/marcinbialek/PycharmProjects/ai_project_lab/wandb/run-20231220_224045-cd8kwskp/files/model-best/variables/variables.index
+2023-12-20 22:40:47,538 INFO    Thread-12 :62827 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/marcinbialek/PycharmProjects/ai_project_lab/wandb/run-20231220_224045-cd8kwskp/files/model-best/keras_metadata.pb
+2023-12-20 22:40:47,538 INFO    Thread-12 :62827 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/marcinbialek/PycharmProjects/ai_project_lab/wandb/run-20231220_224045-cd8kwskp/files/model-best/saved_model.pb
+2023-12-20 22:40:47,538 INFO    Thread-12 :62827 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/marcinbialek/PycharmProjects/ai_project_lab/wandb/run-20231220_224045-cd8kwskp/files/model-best/variables/variables.data-00000-of-00001
+2023-12-20 22:40:47,538 INFO    Thread-12 :62827 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/marcinbialek/PycharmProjects/ai_project_lab/wandb/run-20231220_224045-cd8kwskp/files/model-best/fingerprint.pb
+2023-12-20 22:40:47,538 INFO    Thread-12 :62827 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/marcinbialek/PycharmProjects/ai_project_lab/wandb/run-20231220_224045-cd8kwskp/files/model-best/assets
+2023-12-20 22:40:47,538 INFO    Thread-12 :62827 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/marcinbialek/PycharmProjects/ai_project_lab/wandb/run-20231220_224045-cd8kwskp/files/model-best/variables
+2023-12-20 22:40:47,538 INFO    Thread-12 :62827 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/marcinbialek/PycharmProjects/ai_project_lab/wandb/run-20231220_224045-cd8kwskp/files/model-best
+2023-12-20 22:40:47,584 DEBUG   HandlerThread:62827 [handler.py:handle_request():146] handle_request: log_artifact
+2023-12-20 22:40:47,616 DEBUG   HandlerThread:62827 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-20 22:40:47,616 DEBUG   HandlerThread:62827 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-20 22:40:47,934 DEBUG   HandlerThread:62827 [handler.py:handle_request():146] handle_request: log_artifact
+2023-12-20 22:40:47,962 DEBUG   HandlerThread:62827 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-20 22:40:47,962 DEBUG   HandlerThread:62827 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-20 22:40:48,156 INFO    wandb-upload_2:62827 [upload_job.py:push():89] Uploaded file /Users/marcinbialek/Library/Application Support/wandb/artifacts/staging/tmplunpqb6h
+2023-12-20 22:40:48,161 INFO    wandb-upload_3:62827 [upload_job.py:push():89] Uploaded file /Users/marcinbialek/Library/Application Support/wandb/artifacts/staging/tmp_l85ok7l
+2023-12-20 22:40:48,163 INFO    wandb-upload_0:62827 [upload_job.py:push():89] Uploaded file /Users/marcinbialek/Library/Application Support/wandb/artifacts/staging/tmp8s0pspad
+2023-12-20 22:40:48,217 INFO    wandb-upload_1:62827 [upload_job.py:push():89] Uploaded file /Users/marcinbialek/Library/Application Support/wandb/artifacts/staging/tmpzadai8ak
+2023-12-20 22:40:48,289 DEBUG   HandlerThread:62827 [handler.py:handle_request():146] handle_request: log_artifact
+2023-12-20 22:40:48,289 INFO    wandb-upload_4:62827 [upload_job.py:push():89] Uploaded file /Users/marcinbialek/Library/Application Support/wandb/artifacts/staging/tmpoe2ujucw
+2023-12-20 22:40:48,324 DEBUG   HandlerThread:62827 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-20 22:40:48,324 DEBUG   HandlerThread:62827 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-20 22:40:48,539 INFO    Thread-12 :62827 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/marcinbialek/PycharmProjects/ai_project_lab/wandb/run-20231220_224045-cd8kwskp/files/output.log
+2023-12-20 22:40:48,539 INFO    Thread-12 :62827 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/marcinbialek/PycharmProjects/ai_project_lab/wandb/run-20231220_224045-cd8kwskp/files/model-best.h5
+2023-12-20 22:40:48,539 INFO    Thread-12 :62827 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/marcinbialek/PycharmProjects/ai_project_lab/wandb/run-20231220_224045-cd8kwskp/files/model-best/variables/variables.index
+2023-12-20 22:40:48,539 INFO    Thread-12 :62827 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/marcinbialek/PycharmProjects/ai_project_lab/wandb/run-20231220_224045-cd8kwskp/files/model-best/keras_metadata.pb
+2023-12-20 22:40:48,539 INFO    Thread-12 :62827 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/marcinbialek/PycharmProjects/ai_project_lab/wandb/run-20231220_224045-cd8kwskp/files/model-best/saved_model.pb
+2023-12-20 22:40:48,539 INFO    Thread-12 :62827 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/marcinbialek/PycharmProjects/ai_project_lab/wandb/run-20231220_224045-cd8kwskp/files/model-best/variables/variables.data-00000-of-00001
+2023-12-20 22:40:48,539 INFO    Thread-12 :62827 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/marcinbialek/PycharmProjects/ai_project_lab/wandb/run-20231220_224045-cd8kwskp/files/model-best/fingerprint.pb
+2023-12-20 22:40:48,539 INFO    Thread-12 :62827 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/marcinbialek/PycharmProjects/ai_project_lab/wandb/run-20231220_224045-cd8kwskp/files/model-best/assets
+2023-12-20 22:40:48,539 INFO    Thread-12 :62827 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/marcinbialek/PycharmProjects/ai_project_lab/wandb/run-20231220_224045-cd8kwskp/files/model-best/variables
+2023-12-20 22:40:48,539 INFO    Thread-12 :62827 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/marcinbialek/PycharmProjects/ai_project_lab/wandb/run-20231220_224045-cd8kwskp/files/model-best
+2023-12-20 22:40:48,655 DEBUG   HandlerThread:62827 [handler.py:handle_request():146] handle_request: log_artifact
+2023-12-20 22:40:48,677 DEBUG   HandlerThread:62827 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-20 22:40:48,677 DEBUG   HandlerThread:62827 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-20 22:40:48,998 DEBUG   HandlerThread:62827 [handler.py:handle_request():146] handle_request: log_artifact
+2023-12-20 22:40:49,029 DEBUG   HandlerThread:62827 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-20 22:40:49,029 DEBUG   HandlerThread:62827 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-20 22:40:49,152 INFO    SenderThread:62827 [sender.py:send_request_log_artifact():1458] logged artifact model-dutiful-snowflake-2 - {'id': 'QXJ0aWZhY3Q6NjcxNDMzMDI0', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjEyNDkyNDUwNg==', 'latestArtifact': None}}
+2023-12-20 22:40:49,152 DEBUG   SenderThread:62827 [sender.py:send():382] send: history
+2023-12-20 22:40:49,152 DEBUG   SenderThread:62827 [sender.py:send_request():409] send_request: summary_record
+2023-12-20 22:40:49,152 INFO    SenderThread:62827 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2023-12-20 22:40:49,152 DEBUG   SenderThread:62827 [sender.py:send_request():409] send_request: summary_record
+2023-12-20 22:40:49,152 INFO    SenderThread:62827 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2023-12-20 22:40:49,152 DEBUG   SenderThread:62827 [sender.py:send_request():409] send_request: summary_record
+2023-12-20 22:40:49,152 INFO    SenderThread:62827 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2023-12-20 22:40:49,153 DEBUG   SenderThread:62827 [sender.py:send_request():409] send_request: log_artifact
+2023-12-20 22:40:49,365 DEBUG   HandlerThread:62827 [handler.py:handle_request():146] handle_request: log_artifact
+2023-12-20 22:40:49,408 DEBUG   HandlerThread:62827 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-20 22:40:49,408 DEBUG   HandlerThread:62827 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-20 22:40:49,540 INFO    Thread-12 :62827 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/marcinbialek/PycharmProjects/ai_project_lab/wandb/run-20231220_224045-cd8kwskp/files/wandb-summary.json
+2023-12-20 22:40:49,540 INFO    Thread-12 :62827 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/marcinbialek/PycharmProjects/ai_project_lab/wandb/run-20231220_224045-cd8kwskp/files/model-best.h5
+2023-12-20 22:40:49,540 INFO    Thread-12 :62827 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/marcinbialek/PycharmProjects/ai_project_lab/wandb/run-20231220_224045-cd8kwskp/files/model-best/variables/variables.index
+2023-12-20 22:40:49,540 INFO    Thread-12 :62827 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/marcinbialek/PycharmProjects/ai_project_lab/wandb/run-20231220_224045-cd8kwskp/files/model-best/keras_metadata.pb
+2023-12-20 22:40:49,541 INFO    Thread-12 :62827 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/marcinbialek/PycharmProjects/ai_project_lab/wandb/run-20231220_224045-cd8kwskp/files/model-best/saved_model.pb
+2023-12-20 22:40:49,541 INFO    Thread-12 :62827 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/marcinbialek/PycharmProjects/ai_project_lab/wandb/run-20231220_224045-cd8kwskp/files/model-best/variables/variables.data-00000-of-00001
+2023-12-20 22:40:49,541 INFO    Thread-12 :62827 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/marcinbialek/PycharmProjects/ai_project_lab/wandb/run-20231220_224045-cd8kwskp/files/model-best/fingerprint.pb
+2023-12-20 22:40:49,541 INFO    Thread-12 :62827 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/marcinbialek/PycharmProjects/ai_project_lab/wandb/run-20231220_224045-cd8kwskp/files/model-best/assets
+2023-12-20 22:40:49,541 INFO    Thread-12 :62827 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/marcinbialek/PycharmProjects/ai_project_lab/wandb/run-20231220_224045-cd8kwskp/files/model-best/variables
+2023-12-20 22:40:49,541 INFO    Thread-12 :62827 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/marcinbialek/PycharmProjects/ai_project_lab/wandb/run-20231220_224045-cd8kwskp/files/model-best
+2023-12-20 22:40:49,745 DEBUG   HandlerThread:62827 [handler.py:handle_request():146] handle_request: log_artifact
+2023-12-20 22:40:49,749 DEBUG   HandlerThread:62827 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-20 22:40:49,749 DEBUG   HandlerThread:62827 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-20 22:40:49,749 DEBUG   HandlerThread:62827 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-20 22:40:49,750 DEBUG   HandlerThread:62827 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-20 22:40:49,750 DEBUG   HandlerThread:62827 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-20 22:40:49,750 DEBUG   HandlerThread:62827 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-20 22:40:49,750 DEBUG   HandlerThread:62827 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-20 22:40:49,751 DEBUG   HandlerThread:62827 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-20 22:40:49,751 DEBUG   HandlerThread:62827 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-20 22:40:49,751 DEBUG   HandlerThread:62827 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-20 22:40:50,028 INFO    wandb-upload_3:62827 [upload_job.py:push():86] Skipped uploading /Users/marcinbialek/Library/Application Support/wandb/artifacts/staging/tmpyzw_fpk5
+2023-12-20 22:40:50,393 INFO    wandb-upload_4:62827 [upload_job.py:push():89] Uploaded file /Users/marcinbialek/Library/Application Support/wandb/artifacts/staging/tmp_20pp09n
+2023-12-20 22:40:50,394 INFO    wandb-upload_2:62827 [upload_job.py:push():89] Uploaded file /Users/marcinbialek/Library/Application Support/wandb/artifacts/staging/tmp1wt02vrt
+2023-12-20 22:40:50,429 INFO    wandb-upload_1:62827 [upload_job.py:push():89] Uploaded file /Users/marcinbialek/Library/Application Support/wandb/artifacts/staging/tmpqxmm9qf5
+2023-12-20 22:40:50,537 INFO    wandb-upload_0:62827 [upload_job.py:push():89] Uploaded file /Users/marcinbialek/Library/Application Support/wandb/artifacts/staging/tmptsdaa4fu
+2023-12-20 22:40:50,547 INFO    Thread-12 :62827 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/marcinbialek/PycharmProjects/ai_project_lab/wandb/run-20231220_224045-cd8kwskp/files/output.log
+2023-12-20 22:40:51,663 INFO    SenderThread:62827 [sender.py:send_request_log_artifact():1458] logged artifact model-dutiful-snowflake-2 - {'id': 'QXJ0aWZhY3Q6NjcxNDMzMDM4', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjEyNDkyNDUwNg==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6NjcxNDMzMDI0', 'versionIndex': 0}}}
+2023-12-20 22:40:51,663 DEBUG   SenderThread:62827 [sender.py:send():382] send: history
+2023-12-20 22:40:51,664 DEBUG   SenderThread:62827 [sender.py:send_request():409] send_request: summary_record
+2023-12-20 22:40:51,664 DEBUG   HandlerThread:62827 [handler.py:handle_request():146] handle_request: status_report
+2023-12-20 22:40:51,664 INFO    SenderThread:62827 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2023-12-20 22:40:51,664 DEBUG   SenderThread:62827 [sender.py:send_request():409] send_request: summary_record
+2023-12-20 22:40:51,665 INFO    SenderThread:62827 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2023-12-20 22:40:51,665 DEBUG   SenderThread:62827 [sender.py:send_request():409] send_request: summary_record
+2023-12-20 22:40:51,665 INFO    SenderThread:62827 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2023-12-20 22:40:51,665 DEBUG   SenderThread:62827 [sender.py:send_request():409] send_request: log_artifact
+2023-12-20 22:40:52,558 INFO    Thread-12 :62827 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/marcinbialek/PycharmProjects/ai_project_lab/wandb/run-20231220_224045-cd8kwskp/files/wandb-summary.json
+2023-12-20 22:40:52,789 INFO    wandb-upload_4:62827 [upload_job.py:push():86] Skipped uploading /Users/marcinbialek/Library/Application Support/wandb/artifacts/staging/tmpl2_2xks4
+2023-12-20 22:40:53,120 INFO    wandb-upload_3:62827 [upload_job.py:push():89] Uploaded file /Users/marcinbialek/Library/Application Support/wandb/artifacts/staging/tmp4hkmsnew
+2023-12-20 22:40:53,135 INFO    wandb-upload_0:62827 [upload_job.py:push():89] Uploaded file /Users/marcinbialek/Library/Application Support/wandb/artifacts/staging/tmpuftxg6b0
+2023-12-20 22:40:53,170 INFO    wandb-upload_1:62827 [upload_job.py:push():89] Uploaded file /Users/marcinbialek/Library/Application Support/wandb/artifacts/staging/tmp9jp6ogh2
+2023-12-20 22:40:53,246 INFO    wandb-upload_2:62827 [upload_job.py:push():89] Uploaded file /Users/marcinbialek/Library/Application Support/wandb/artifacts/staging/tmphqg29c23
+2023-12-20 22:40:54,221 INFO    SenderThread:62827 [sender.py:send_request_log_artifact():1458] logged artifact model-dutiful-snowflake-2 - {'id': 'QXJ0aWZhY3Q6NjcxNDMzMDYw', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjEyNDkyNDUwNg==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6NjcxNDMzMDM4', 'versionIndex': 1}}}
+2023-12-20 22:40:54,222 DEBUG   SenderThread:62827 [sender.py:send():382] send: history
+2023-12-20 22:40:54,222 DEBUG   SenderThread:62827 [sender.py:send_request():409] send_request: summary_record
+2023-12-20 22:40:54,222 INFO    SenderThread:62827 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2023-12-20 22:40:54,222 DEBUG   SenderThread:62827 [sender.py:send_request():409] send_request: summary_record
+2023-12-20 22:40:54,223 INFO    SenderThread:62827 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2023-12-20 22:40:54,223 DEBUG   SenderThread:62827 [sender.py:send_request():409] send_request: summary_record
+2023-12-20 22:40:54,223 INFO    SenderThread:62827 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2023-12-20 22:40:54,223 DEBUG   SenderThread:62827 [sender.py:send_request():409] send_request: log_artifact
+2023-12-20 22:40:54,562 INFO    Thread-12 :62827 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/marcinbialek/PycharmProjects/ai_project_lab/wandb/run-20231220_224045-cd8kwskp/files/output.log
+2023-12-20 22:40:54,563 INFO    Thread-12 :62827 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/marcinbialek/PycharmProjects/ai_project_lab/wandb/run-20231220_224045-cd8kwskp/files/wandb-summary.json
+2023-12-20 22:40:55,348 INFO    wandb-upload_3:62827 [upload_job.py:push():86] Skipped uploading /Users/marcinbialek/Library/Application Support/wandb/artifacts/staging/tmpjyetkwxw
+2023-12-20 22:40:55,666 INFO    wandb-upload_4:62827 [upload_job.py:push():89] Uploaded file /Users/marcinbialek/Library/Application Support/wandb/artifacts/staging/tmp9vf7shfy
+2023-12-20 22:40:55,668 INFO    wandb-upload_2:62827 [upload_job.py:push():89] Uploaded file /Users/marcinbialek/Library/Application Support/wandb/artifacts/staging/tmph145s5ma
+2023-12-20 22:40:55,745 INFO    wandb-upload_1:62827 [upload_job.py:push():89] Uploaded file /Users/marcinbialek/Library/Application Support/wandb/artifacts/staging/tmpf1i9zlsk
+2023-12-20 22:40:55,796 INFO    wandb-upload_0:62827 [upload_job.py:push():89] Uploaded file /Users/marcinbialek/Library/Application Support/wandb/artifacts/staging/tmprojimloy
+2023-12-20 22:40:56,564 INFO    Thread-12 :62827 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/marcinbialek/PycharmProjects/ai_project_lab/wandb/run-20231220_224045-cd8kwskp/files/output.log
+2023-12-20 22:40:56,781 INFO    SenderThread:62827 [sender.py:send_request_log_artifact():1458] logged artifact model-dutiful-snowflake-2 - {'id': 'QXJ0aWZhY3Q6NjcxNDMzMDcz', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjEyNDkyNDUwNg==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6NjcxNDMzMDYw', 'versionIndex': 2}}}
+2023-12-20 22:40:56,782 DEBUG   SenderThread:62827 [sender.py:send():382] send: history
+2023-12-20 22:40:56,782 DEBUG   SenderThread:62827 [sender.py:send_request():409] send_request: summary_record
+2023-12-20 22:40:56,782 DEBUG   HandlerThread:62827 [handler.py:handle_request():146] handle_request: status_report
+2023-12-20 22:40:56,783 INFO    SenderThread:62827 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2023-12-20 22:40:56,783 DEBUG   SenderThread:62827 [sender.py:send_request():409] send_request: summary_record
+2023-12-20 22:40:56,783 INFO    SenderThread:62827 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2023-12-20 22:40:56,783 DEBUG   SenderThread:62827 [sender.py:send_request():409] send_request: summary_record
+2023-12-20 22:40:56,783 INFO    SenderThread:62827 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2023-12-20 22:40:56,783 DEBUG   SenderThread:62827 [sender.py:send_request():409] send_request: log_artifact
+2023-12-20 22:40:57,566 INFO    Thread-12 :62827 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/marcinbialek/PycharmProjects/ai_project_lab/wandb/run-20231220_224045-cd8kwskp/files/wandb-summary.json
+2023-12-20 22:40:57,908 INFO    wandb-upload_4:62827 [upload_job.py:push():86] Skipped uploading /Users/marcinbialek/Library/Application Support/wandb/artifacts/staging/tmpkvirwlwb
+2023-12-20 22:40:58,228 INFO    wandb-upload_0:62827 [upload_job.py:push():89] Uploaded file /Users/marcinbialek/Library/Application Support/wandb/artifacts/staging/tmp4i5mbb6x
+2023-12-20 22:40:58,250 INFO    wandb-upload_3:62827 [upload_job.py:push():89] Uploaded file /Users/marcinbialek/Library/Application Support/wandb/artifacts/staging/tmpdaag8hoq
+2023-12-20 22:40:58,295 INFO    wandb-upload_1:62827 [upload_job.py:push():89] Uploaded file /Users/marcinbialek/Library/Application Support/wandb/artifacts/staging/tmp0od1o___
+2023-12-20 22:40:58,353 INFO    wandb-upload_2:62827 [upload_job.py:push():89] Uploaded file /Users/marcinbialek/Library/Application Support/wandb/artifacts/staging/tmpfok4lg0n
+2023-12-20 22:40:58,573 INFO    Thread-12 :62827 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/marcinbialek/PycharmProjects/ai_project_lab/wandb/run-20231220_224045-cd8kwskp/files/output.log
+2023-12-20 22:40:59,446 INFO    SenderThread:62827 [sender.py:send_request_log_artifact():1458] logged artifact model-dutiful-snowflake-2 - {'id': 'QXJ0aWZhY3Q6NjcxNDMzMTAw', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjEyNDkyNDUwNg==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6NjcxNDMzMDcz', 'versionIndex': 3}}}
+2023-12-20 22:40:59,446 DEBUG   SenderThread:62827 [sender.py:send():382] send: history
+2023-12-20 22:40:59,446 DEBUG   SenderThread:62827 [sender.py:send_request():409] send_request: summary_record
+2023-12-20 22:40:59,447 INFO    SenderThread:62827 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2023-12-20 22:40:59,447 DEBUG   SenderThread:62827 [sender.py:send_request():409] send_request: summary_record
+2023-12-20 22:40:59,447 INFO    SenderThread:62827 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2023-12-20 22:40:59,447 DEBUG   SenderThread:62827 [sender.py:send_request():409] send_request: summary_record
+2023-12-20 22:40:59,448 INFO    SenderThread:62827 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2023-12-20 22:40:59,448 DEBUG   SenderThread:62827 [sender.py:send_request():409] send_request: log_artifact
+2023-12-20 22:40:59,578 INFO    Thread-12 :62827 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/marcinbialek/PycharmProjects/ai_project_lab/wandb/run-20231220_224045-cd8kwskp/files/wandb-summary.json
+2023-12-20 22:41:00,400 INFO    wandb-upload_0:62827 [upload_job.py:push():86] Skipped uploading /Users/marcinbialek/Library/Application Support/wandb/artifacts/staging/tmp14lyk217
+2023-12-20 22:41:00,580 INFO    Thread-12 :62827 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/marcinbialek/PycharmProjects/ai_project_lab/wandb/run-20231220_224045-cd8kwskp/files/output.log
+2023-12-20 22:41:00,732 INFO    wandb-upload_4:62827 [upload_job.py:push():89] Uploaded file /Users/marcinbialek/Library/Application Support/wandb/artifacts/staging/tmp7bawqib4
+2023-12-20 22:41:00,733 INFO    wandb-upload_2:62827 [upload_job.py:push():89] Uploaded file /Users/marcinbialek/Library/Application Support/wandb/artifacts/staging/tmp1n4hir1z
+2023-12-20 22:41:00,845 DEBUG   HandlerThread:62827 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-20 22:41:00,846 DEBUG   HandlerThread:62827 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-20 22:41:00,863 INFO    wandb-upload_3:62827 [upload_job.py:push():89] Uploaded file /Users/marcinbialek/Library/Application Support/wandb/artifacts/staging/tmp2wpff4lf
+2023-12-20 22:41:00,893 INFO    wandb-upload_1:62827 [upload_job.py:push():89] Uploaded file /Users/marcinbialek/Library/Application Support/wandb/artifacts/staging/tmpvga77b2b
+2023-12-20 22:41:01,800 INFO    SenderThread:62827 [sender.py:send_request_log_artifact():1458] logged artifact model-dutiful-snowflake-2 - {'id': 'QXJ0aWZhY3Q6NjcxNDMzMTI2', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjEyNDkyNDUwNg==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6NjcxNDMzMTAw', 'versionIndex': 4}}}
+2023-12-20 22:41:01,800 DEBUG   SenderThread:62827 [sender.py:send():382] send: history
+2023-12-20 22:41:01,800 DEBUG   SenderThread:62827 [sender.py:send_request():409] send_request: summary_record
+2023-12-20 22:41:01,801 DEBUG   HandlerThread:62827 [handler.py:handle_request():146] handle_request: status_report
+2023-12-20 22:41:01,801 INFO    SenderThread:62827 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2023-12-20 22:41:01,801 DEBUG   SenderThread:62827 [sender.py:send_request():409] send_request: summary_record
+2023-12-20 22:41:01,801 INFO    SenderThread:62827 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2023-12-20 22:41:01,801 DEBUG   SenderThread:62827 [sender.py:send_request():409] send_request: summary_record
+2023-12-20 22:41:01,801 INFO    SenderThread:62827 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2023-12-20 22:41:01,801 DEBUG   SenderThread:62827 [sender.py:send_request():409] send_request: log_artifact
+2023-12-20 22:41:02,592 INFO    Thread-12 :62827 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/marcinbialek/PycharmProjects/ai_project_lab/wandb/run-20231220_224045-cd8kwskp/files/wandb-summary.json
+2023-12-20 22:41:02,823 INFO    wandb-upload_4:62827 [upload_job.py:push():86] Skipped uploading /Users/marcinbialek/Library/Application Support/wandb/artifacts/staging/tmpb14btk76
+2023-12-20 22:41:03,152 INFO    wandb-upload_0:62827 [upload_job.py:push():89] Uploaded file /Users/marcinbialek/Library/Application Support/wandb/artifacts/staging/tmprxmn1g27
+2023-12-20 22:41:03,161 INFO    wandb-upload_1:62827 [upload_job.py:push():89] Uploaded file /Users/marcinbialek/Library/Application Support/wandb/artifacts/staging/tmp359_u4zi
+2023-12-20 22:41:03,206 INFO    wandb-upload_3:62827 [upload_job.py:push():89] Uploaded file /Users/marcinbialek/Library/Application Support/wandb/artifacts/staging/tmpldmhzd5j
+2023-12-20 22:41:03,274 INFO    wandb-upload_2:62827 [upload_job.py:push():89] Uploaded file /Users/marcinbialek/Library/Application Support/wandb/artifacts/staging/tmp02pkmrv7
+2023-12-20 22:41:03,685 DEBUG   HandlerThread:62827 [handler.py:handle_request():146] handle_request: poll_exit
+2023-12-20 22:41:04,259 INFO    SenderThread:62827 [sender.py:send_request_log_artifact():1458] logged artifact model-dutiful-snowflake-2 - {'id': 'QXJ0aWZhY3Q6NjcxNDMzMTUx', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjEyNDkyNDUwNg==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6NjcxNDMzMTI2', 'versionIndex': 5}}}
+2023-12-20 22:41:04,260 DEBUG   SenderThread:62827 [sender.py:send():382] send: history
+2023-12-20 22:41:04,260 DEBUG   SenderThread:62827 [sender.py:send_request():409] send_request: summary_record
+2023-12-20 22:41:04,260 INFO    SenderThread:62827 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2023-12-20 22:41:04,261 DEBUG   SenderThread:62827 [sender.py:send_request():409] send_request: summary_record
+2023-12-20 22:41:04,261 INFO    SenderThread:62827 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2023-12-20 22:41:04,261 DEBUG   SenderThread:62827 [sender.py:send_request():409] send_request: summary_record
+2023-12-20 22:41:04,261 INFO    SenderThread:62827 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2023-12-20 22:41:04,262 DEBUG   SenderThread:62827 [sender.py:send_request():409] send_request: log_artifact
+2023-12-20 22:41:04,601 INFO    Thread-12 :62827 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/marcinbialek/PycharmProjects/ai_project_lab/wandb/run-20231220_224045-cd8kwskp/files/output.log
+2023-12-20 22:41:04,601 INFO    Thread-12 :62827 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/marcinbialek/PycharmProjects/ai_project_lab/wandb/run-20231220_224045-cd8kwskp/files/wandb-summary.json
+2023-12-20 22:41:05,335 INFO    wandb-upload_0:62827 [upload_job.py:push():86] Skipped uploading /Users/marcinbialek/Library/Application Support/wandb/artifacts/staging/tmpghge4xly
+2023-12-20 22:41:05,669 INFO    wandb-upload_2:62827 [upload_job.py:push():89] Uploaded file /Users/marcinbialek/Library/Application Support/wandb/artifacts/staging/tmplh4amea0
+2023-12-20 22:41:05,729 INFO    wandb-upload_3:62827 [upload_job.py:push():89] Uploaded file /Users/marcinbialek/Library/Application Support/wandb/artifacts/staging/tmp66ra5xda
+2023-12-20 22:41:05,786 INFO    wandb-upload_1:62827 [upload_job.py:push():89] Uploaded file /Users/marcinbialek/Library/Application Support/wandb/artifacts/staging/tmpvp6tqcjo
+2023-12-20 22:41:05,796 INFO    wandb-upload_4:62827 [upload_job.py:push():89] Uploaded file /Users/marcinbialek/Library/Application Support/wandb/artifacts/staging/tmpskjhc06h
+2023-12-20 22:41:06,608 INFO    SenderThread:62827 [sender.py:send_request_log_artifact():1458] logged artifact model-dutiful-snowflake-2 - {'id': 'QXJ0aWZhY3Q6NjcxNDMzMTcz', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjEyNDkyNDUwNg==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6NjcxNDMzMTUx', 'versionIndex': 6}}}
+2023-12-20 22:41:06,609 DEBUG   SenderThread:62827 [sender.py:send():382] send: history
+2023-12-20 22:41:06,609 DEBUG   SenderThread:62827 [sender.py:send_request():409] send_request: summary_record
+2023-12-20 22:41:06,611 INFO    SenderThread:62827 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2023-12-20 22:41:06,611 DEBUG   SenderThread:62827 [sender.py:send_request():409] send_request: summary_record
+2023-12-20 22:41:06,612 INFO    SenderThread:62827 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2023-12-20 22:41:06,612 DEBUG   SenderThread:62827 [sender.py:send_request():409] send_request: summary_record
+2023-12-20 22:41:06,613 INFO    SenderThread:62827 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2023-12-20 22:41:06,613 DEBUG   SenderThread:62827 [sender.py:send_request():409] send_request: log_artifact
+2023-12-20 22:41:06,619 INFO    Thread-12 :62827 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/marcinbialek/PycharmProjects/ai_project_lab/wandb/run-20231220_224045-cd8kwskp/files/output.log
+2023-12-20 22:41:06,619 INFO    Thread-12 :62827 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/marcinbialek/PycharmProjects/ai_project_lab/wandb/run-20231220_224045-cd8kwskp/files/wandb-summary.json
+2023-12-20 22:41:07,431 INFO    wandb-upload_2:62827 [upload_job.py:push():86] Skipped uploading /Users/marcinbialek/Library/Application Support/wandb/artifacts/staging/tmpnn0aa5gt
+2023-12-20 22:41:07,755 INFO    wandb-upload_0:62827 [upload_job.py:push():89] Uploaded file /Users/marcinbialek/Library/Application Support/wandb/artifacts/staging/tmpa8c_y512
+2023-12-20 22:41:07,761 INFO    wandb-upload_4:62827 [upload_job.py:push():89] Uploaded file /Users/marcinbialek/Library/Application Support/wandb/artifacts/staging/tmpby73kals
+2023-12-20 22:41:07,810 INFO    wandb-upload_1:62827 [upload_job.py:push():89] Uploaded file /Users/marcinbialek/Library/Application Support/wandb/artifacts/staging/tmp_g6m5psf
+2023-12-20 22:41:07,879 INFO    wandb-upload_3:62827 [upload_job.py:push():89] Uploaded file /Users/marcinbialek/Library/Application Support/wandb/artifacts/staging/tmpcwfaxpp8
+2023-12-20 22:41:08,626 INFO    Thread-12 :62827 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/marcinbialek/PycharmProjects/ai_project_lab/wandb/run-20231220_224045-cd8kwskp/files/output.log
+2023-12-20 22:41:08,691 DEBUG   HandlerThread:62827 [handler.py:handle_request():146] handle_request: keepalive
+2023-12-20 22:41:08,866 INFO    SenderThread:62827 [sender.py:send_request_log_artifact():1458] logged artifact model-dutiful-snowflake-2 - {'id': 'QXJ0aWZhY3Q6NjcxNDMzMTk3', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjEyNDkyNDUwNg==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6NjcxNDMzMTcz', 'versionIndex': 7}}}
+2023-12-20 22:41:08,867 DEBUG   SenderThread:62827 [sender.py:send():382] send: history
+2023-12-20 22:41:08,867 DEBUG   SenderThread:62827 [sender.py:send_request():409] send_request: summary_record
+2023-12-20 22:41:08,867 DEBUG   HandlerThread:62827 [handler.py:handle_request():146] handle_request: status_report
+2023-12-20 22:41:08,869 INFO    SenderThread:62827 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2023-12-20 22:41:08,869 DEBUG   SenderThread:62827 [sender.py:send_request():409] send_request: summary_record
+2023-12-20 22:41:08,870 INFO    SenderThread:62827 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2023-12-20 22:41:08,870 DEBUG   SenderThread:62827 [sender.py:send_request():409] send_request: summary_record
+2023-12-20 22:41:08,870 INFO    SenderThread:62827 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2023-12-20 22:41:08,871 DEBUG   SenderThread:62827 [sender.py:send_request():409] send_request: log_artifact
+2023-12-20 22:41:09,633 INFO    Thread-12 :62827 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/marcinbialek/PycharmProjects/ai_project_lab/wandb/run-20231220_224045-cd8kwskp/files/wandb-summary.json
+2023-12-20 22:41:09,995 INFO    wandb-upload_0:62827 [upload_job.py:push():86] Skipped uploading /Users/marcinbialek/Library/Application Support/wandb/artifacts/staging/tmpy5e2gce6
+2023-12-20 22:41:10,321 INFO    wandb-upload_2:62827 [upload_job.py:push():89] Uploaded file /Users/marcinbialek/Library/Application Support/wandb/artifacts/staging/tmpzcovqsua
+2023-12-20 22:41:10,328 INFO    wandb-upload_3:62827 [upload_job.py:push():89] Uploaded file /Users/marcinbialek/Library/Application Support/wandb/artifacts/staging/tmpstubgew3
+2023-12-20 22:41:10,364 INFO    wandb-upload_1:62827 [upload_job.py:push():89] Uploaded file /Users/marcinbialek/Library/Application Support/wandb/artifacts/staging/tmpu9mmkw_s
+2023-12-20 22:41:10,450 INFO    wandb-upload_4:62827 [upload_job.py:push():89] Uploaded file /Users/marcinbialek/Library/Application Support/wandb/artifacts/staging/tmp7a9ldgq_
+2023-12-20 22:41:10,638 INFO    Thread-12 :62827 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/marcinbialek/PycharmProjects/ai_project_lab/wandb/run-20231220_224045-cd8kwskp/files/output.log
+2023-12-20 22:41:11,423 INFO    SenderThread:62827 [sender.py:send_request_log_artifact():1458] logged artifact model-dutiful-snowflake-2 - {'id': 'QXJ0aWZhY3Q6NjcxNDMzMjE4', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjEyNDkyNDUwNg==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6NjcxNDMzMTk3', 'versionIndex': 8}}}
+2023-12-20 22:41:11,423 DEBUG   SenderThread:62827 [sender.py:send():382] send: history
+2023-12-20 22:41:11,423 DEBUG   SenderThread:62827 [sender.py:send_request():409] send_request: summary_record
+2023-12-20 22:41:11,424 INFO    SenderThread:62827 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2023-12-20 22:41:11,425 DEBUG   SenderThread:62827 [sender.py:send():382] send: history
+2023-12-20 22:41:11,425 DEBUG   SenderThread:62827 [sender.py:send_request():409] send_request: summary_record
+2023-12-20 22:41:11,426 INFO    SenderThread:62827 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2023-12-20 22:41:11,426 DEBUG   SenderThread:62827 [sender.py:send():382] send: history
+2023-12-20 22:41:11,426 DEBUG   SenderThread:62827 [sender.py:send_request():409] send_request: summary_record
+2023-12-20 22:41:11,427 INFO    SenderThread:62827 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2023-12-20 22:41:11,428 DEBUG   SenderThread:62827 [sender.py:send():382] send: history
+2023-12-20 22:41:11,428 DEBUG   SenderThread:62827 [sender.py:send_request():409] send_request: summary_record
+2023-12-20 22:41:11,428 INFO    SenderThread:62827 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2023-12-20 22:41:11,429 DEBUG   SenderThread:62827 [sender.py:send():382] send: history
+2023-12-20 22:41:11,429 DEBUG   SenderThread:62827 [sender.py:send_request():409] send_request: summary_record
+2023-12-20 22:41:11,430 INFO    SenderThread:62827 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2023-12-20 22:41:11,430 DEBUG   SenderThread:62827 [sender.py:send():382] send: history
+2023-12-20 22:41:11,430 DEBUG   SenderThread:62827 [sender.py:send_request():409] send_request: summary_record
+2023-12-20 22:41:11,431 INFO    SenderThread:62827 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2023-12-20 22:41:11,431 DEBUG   SenderThread:62827 [sender.py:send():382] send: history
+2023-12-20 22:41:11,432 DEBUG   SenderThread:62827 [sender.py:send_request():409] send_request: summary_record
+2023-12-20 22:41:11,432 INFO    SenderThread:62827 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2023-12-20 22:41:11,432 DEBUG   SenderThread:62827 [sender.py:send():382] send: history
+2023-12-20 22:41:11,432 DEBUG   SenderThread:62827 [sender.py:send_request():409] send_request: summary_record
+2023-12-20 22:41:11,433 INFO    SenderThread:62827 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2023-12-20 22:41:11,433 DEBUG   SenderThread:62827 [sender.py:send():382] send: history
+2023-12-20 22:41:11,433 DEBUG   SenderThread:62827 [sender.py:send_request():409] send_request: summary_record
+2023-12-20 22:41:11,434 INFO    SenderThread:62827 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2023-12-20 22:41:11,434 DEBUG   SenderThread:62827 [sender.py:send():382] send: history
+2023-12-20 22:41:11,434 DEBUG   SenderThread:62827 [sender.py:send_request():409] send_request: summary_record
+2023-12-20 22:41:11,434 INFO    SenderThread:62827 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2023-12-20 22:41:11,434 DEBUG   SenderThread:62827 [sender.py:send_request():409] send_request: stop_status
+2023-12-20 22:41:11,638 DEBUG   SenderThread:62827 [sender.py:send():382] send: telemetry
+2023-12-20 22:41:11,639 DEBUG   SenderThread:62827 [sender.py:send():382] send: exit
+2023-12-20 22:41:11,639 INFO    SenderThread:62827 [sender.py:send_exit():589] handling exit code: 0
+2023-12-20 22:41:11,639 INFO    SenderThread:62827 [sender.py:send_exit():591] handling runtime: 16
+2023-12-20 22:41:11,641 INFO    SenderThread:62827 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2023-12-20 22:41:11,641 INFO    Thread-12 :62827 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/marcinbialek/PycharmProjects/ai_project_lab/wandb/run-20231220_224045-cd8kwskp/files/wandb-summary.json
+2023-12-20 22:41:11,641 INFO    SenderThread:62827 [sender.py:send_exit():597] send defer
+2023-12-20 22:41:11,641 DEBUG   SenderThread:62827 [sender.py:send_request():409] send_request: poll_exit
+2023-12-20 22:41:11,642 DEBUG   HandlerThread:62827 [handler.py:handle_request():146] handle_request: defer
+2023-12-20 22:41:11,642 INFO    HandlerThread:62827 [handler.py:handle_request_defer():172] handle defer: 0
+2023-12-20 22:41:11,643 DEBUG   SenderThread:62827 [sender.py:send_request():409] send_request: defer
+2023-12-20 22:41:11,643 INFO    SenderThread:62827 [sender.py:send_request_defer():613] handle sender defer: 0
+2023-12-20 22:41:11,643 INFO    SenderThread:62827 [sender.py:transition_state():617] send defer: 1
+2023-12-20 22:41:11,643 DEBUG   HandlerThread:62827 [handler.py:handle_request():146] handle_request: defer
+2023-12-20 22:41:11,643 INFO    HandlerThread:62827 [handler.py:handle_request_defer():172] handle defer: 1
+2023-12-20 22:41:11,644 DEBUG   SenderThread:62827 [sender.py:send_request():409] send_request: defer
+2023-12-20 22:41:11,644 INFO    SenderThread:62827 [sender.py:send_request_defer():613] handle sender defer: 1
+2023-12-20 22:41:11,644 INFO    SenderThread:62827 [sender.py:transition_state():617] send defer: 2
+2023-12-20 22:41:11,644 DEBUG   HandlerThread:62827 [handler.py:handle_request():146] handle_request: defer
+2023-12-20 22:41:11,644 INFO    HandlerThread:62827 [handler.py:handle_request_defer():172] handle defer: 2
+2023-12-20 22:41:11,644 INFO    HandlerThread:62827 [system_monitor.py:finish():203] Stopping system monitor
+2023-12-20 22:41:11,645 DEBUG   SystemMonitor:62827 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2023-12-20 22:41:11,646 INFO    HandlerThread:62827 [interfaces.py:finish():202] Joined cpu monitor
+2023-12-20 22:41:11,646 DEBUG   SystemMonitor:62827 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2023-12-20 22:41:11,646 INFO    HandlerThread:62827 [interfaces.py:finish():202] Joined disk monitor
+2023-12-20 22:41:11,646 DEBUG   SystemMonitor:62827 [system_monitor.py:_start():183] Publishing last batch of metrics
+2023-12-20 22:41:11,647 INFO    HandlerThread:62827 [interfaces.py:finish():202] Joined gpuapple monitor
+2023-12-20 22:41:11,648 INFO    HandlerThread:62827 [interfaces.py:finish():202] Joined memory monitor
+2023-12-20 22:41:11,648 INFO    HandlerThread:62827 [interfaces.py:finish():202] Joined network monitor
+2023-12-20 22:41:11,648 DEBUG   SenderThread:62827 [sender.py:send_request():409] send_request: defer
+2023-12-20 22:41:11,649 INFO    SenderThread:62827 [sender.py:send_request_defer():613] handle sender defer: 2
+2023-12-20 22:41:11,649 INFO    SenderThread:62827 [sender.py:transition_state():617] send defer: 3
+2023-12-20 22:41:11,649 DEBUG   SenderThread:62827 [sender.py:send():382] send: telemetry
+2023-12-20 22:41:11,649 DEBUG   HandlerThread:62827 [handler.py:handle_request():146] handle_request: defer
+2023-12-20 22:41:11,649 DEBUG   SenderThread:62827 [sender.py:send():382] send: stats
+2023-12-20 22:41:11,649 INFO    HandlerThread:62827 [handler.py:handle_request_defer():172] handle defer: 3
+2023-12-20 22:41:11,650 DEBUG   SenderThread:62827 [sender.py:send_request():409] send_request: defer
+2023-12-20 22:41:11,650 INFO    SenderThread:62827 [sender.py:send_request_defer():613] handle sender defer: 3
+2023-12-20 22:41:11,650 INFO    SenderThread:62827 [sender.py:transition_state():617] send defer: 4
+2023-12-20 22:41:11,650 DEBUG   HandlerThread:62827 [handler.py:handle_request():146] handle_request: defer
+2023-12-20 22:41:11,650 INFO    HandlerThread:62827 [handler.py:handle_request_defer():172] handle defer: 4
+2023-12-20 22:41:11,650 DEBUG   SenderThread:62827 [sender.py:send_request():409] send_request: defer
+2023-12-20 22:41:11,650 INFO    SenderThread:62827 [sender.py:send_request_defer():613] handle sender defer: 4
+2023-12-20 22:41:11,650 INFO    SenderThread:62827 [sender.py:transition_state():617] send defer: 5
+2023-12-20 22:41:11,651 DEBUG   HandlerThread:62827 [handler.py:handle_request():146] handle_request: defer
+2023-12-20 22:41:11,651 INFO    HandlerThread:62827 [handler.py:handle_request_defer():172] handle defer: 5
+2023-12-20 22:41:11,651 DEBUG   SenderThread:62827 [sender.py:send():382] send: summary
+2023-12-20 22:41:11,652 INFO    SenderThread:62827 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2023-12-20 22:41:11,652 DEBUG   SenderThread:62827 [sender.py:send_request():409] send_request: defer
+2023-12-20 22:41:11,652 INFO    SenderThread:62827 [sender.py:send_request_defer():613] handle sender defer: 5
+2023-12-20 22:41:11,652 INFO    SenderThread:62827 [sender.py:transition_state():617] send defer: 6
+2023-12-20 22:41:11,652 DEBUG   HandlerThread:62827 [handler.py:handle_request():146] handle_request: defer
+2023-12-20 22:41:11,652 INFO    HandlerThread:62827 [handler.py:handle_request_defer():172] handle defer: 6
+2023-12-20 22:41:11,652 DEBUG   SenderThread:62827 [sender.py:send_request():409] send_request: defer
+2023-12-20 22:41:11,653 INFO    SenderThread:62827 [sender.py:send_request_defer():613] handle sender defer: 6
+2023-12-20 22:41:11,656 DEBUG   HandlerThread:62827 [handler.py:handle_request():146] handle_request: status_report
+2023-12-20 22:41:11,694 DEBUG   HandlerThread:62827 [handler.py:handle_request():146] handle_request: poll_exit
+2023-12-20 22:41:11,863 INFO    SenderThread:62827 [sender.py:transition_state():617] send defer: 7
+2023-12-20 22:41:11,863 DEBUG   SenderThread:62827 [sender.py:send_request():409] send_request: poll_exit
+2023-12-20 22:41:11,863 DEBUG   HandlerThread:62827 [handler.py:handle_request():146] handle_request: defer
+2023-12-20 22:41:11,864 INFO    HandlerThread:62827 [handler.py:handle_request_defer():172] handle defer: 7
+2023-12-20 22:41:11,864 DEBUG   SenderThread:62827 [sender.py:send_request():409] send_request: defer
+2023-12-20 22:41:11,864 INFO    SenderThread:62827 [sender.py:send_request_defer():613] handle sender defer: 7
+2023-12-20 22:41:12,641 INFO    Thread-12 :62827 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/marcinbialek/PycharmProjects/ai_project_lab/wandb/run-20231220_224045-cd8kwskp/files/config.yaml
+2023-12-20 22:41:12,642 INFO    Thread-12 :62827 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/marcinbialek/PycharmProjects/ai_project_lab/wandb/run-20231220_224045-cd8kwskp/files/output.log
+2023-12-20 22:41:12,642 INFO    Thread-12 :62827 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/marcinbialek/PycharmProjects/ai_project_lab/wandb/run-20231220_224045-cd8kwskp/files/wandb-summary.json
+2023-12-20 22:41:12,696 DEBUG   HandlerThread:62827 [handler.py:handle_request():146] handle_request: poll_exit
+2023-12-20 22:41:14,148 INFO    SenderThread:62827 [sender.py:transition_state():617] send defer: 8
+2023-12-20 22:41:14,149 DEBUG   SenderThread:62827 [sender.py:send_request():409] send_request: poll_exit
+2023-12-20 22:41:14,149 DEBUG   HandlerThread:62827 [handler.py:handle_request():146] handle_request: defer
+2023-12-20 22:41:14,149 INFO    HandlerThread:62827 [handler.py:handle_request_defer():172] handle defer: 8
+2023-12-20 22:41:14,150 DEBUG   SenderThread:62827 [sender.py:send_request():409] send_request: defer
+2023-12-20 22:41:14,150 INFO    SenderThread:62827 [sender.py:send_request_defer():613] handle sender defer: 8
+2023-12-20 22:41:14,150 INFO    SenderThread:62827 [job_builder.py:build():298] Attempting to build job artifact
+2023-12-20 22:41:14,152 INFO    SenderThread:62827 [job_builder.py:_get_source_type():439] no source found
+2023-12-20 22:41:14,152 INFO    SenderThread:62827 [sender.py:transition_state():617] send defer: 9
+2023-12-20 22:41:14,152 DEBUG   HandlerThread:62827 [handler.py:handle_request():146] handle_request: defer
+2023-12-20 22:41:14,152 INFO    HandlerThread:62827 [handler.py:handle_request_defer():172] handle defer: 9
+2023-12-20 22:41:14,152 DEBUG   SenderThread:62827 [sender.py:send_request():409] send_request: defer
+2023-12-20 22:41:14,152 INFO    SenderThread:62827 [sender.py:send_request_defer():613] handle sender defer: 9
+2023-12-20 22:41:14,152 INFO    SenderThread:62827 [dir_watcher.py:finish():358] shutting down directory watcher
+2023-12-20 22:41:14,653 INFO    SenderThread:62827 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/marcinbialek/PycharmProjects/ai_project_lab/wandb/run-20231220_224045-cd8kwskp/files/output.log
+2023-12-20 22:41:14,653 INFO    SenderThread:62827 [dir_watcher.py:finish():388] scan: /Users/marcinbialek/PycharmProjects/ai_project_lab/wandb/run-20231220_224045-cd8kwskp/files
+2023-12-20 22:41:14,654 INFO    SenderThread:62827 [dir_watcher.py:finish():402] scan save: /Users/marcinbialek/PycharmProjects/ai_project_lab/wandb/run-20231220_224045-cd8kwskp/files/requirements.txt requirements.txt
+2023-12-20 22:41:14,654 INFO    SenderThread:62827 [dir_watcher.py:finish():402] scan save: /Users/marcinbialek/PycharmProjects/ai_project_lab/wandb/run-20231220_224045-cd8kwskp/files/output.log output.log
+2023-12-20 22:41:14,657 INFO    SenderThread:62827 [dir_watcher.py:finish():402] scan save: /Users/marcinbialek/PycharmProjects/ai_project_lab/wandb/run-20231220_224045-cd8kwskp/files/config.yaml config.yaml
+2023-12-20 22:41:14,659 INFO    SenderThread:62827 [dir_watcher.py:finish():402] scan save: /Users/marcinbialek/PycharmProjects/ai_project_lab/wandb/run-20231220_224045-cd8kwskp/files/wandb-summary.json wandb-summary.json
+2023-12-20 22:41:14,661 INFO    SenderThread:62827 [dir_watcher.py:finish():402] scan save: /Users/marcinbialek/PycharmProjects/ai_project_lab/wandb/run-20231220_224045-cd8kwskp/files/wandb-metadata.json wandb-metadata.json
+2023-12-20 22:41:14,662 INFO    SenderThread:62827 [dir_watcher.py:finish():402] scan save: /Users/marcinbialek/PycharmProjects/ai_project_lab/wandb/run-20231220_224045-cd8kwskp/files/model-best.h5 model-best.h5
+2023-12-20 22:41:14,667 INFO    SenderThread:62827 [dir_watcher.py:finish():402] scan save: /Users/marcinbialek/PycharmProjects/ai_project_lab/wandb/run-20231220_224045-cd8kwskp/files/media/graph/graph_summary_d0ad3a12b1c26ac157c5.graph.json media/graph/graph_summary_d0ad3a12b1c26ac157c5.graph.json
+2023-12-20 22:41:14,668 INFO    SenderThread:62827 [sender.py:transition_state():617] send defer: 10
+2023-12-20 22:41:14,668 DEBUG   HandlerThread:62827 [handler.py:handle_request():146] handle_request: defer
+2023-12-20 22:41:14,668 INFO    HandlerThread:62827 [handler.py:handle_request_defer():172] handle defer: 10
+2023-12-20 22:41:14,669 DEBUG   SenderThread:62827 [sender.py:send_request():409] send_request: defer
+2023-12-20 22:41:14,669 INFO    SenderThread:62827 [sender.py:send_request_defer():613] handle sender defer: 10
+2023-12-20 22:41:14,669 INFO    SenderThread:62827 [file_pusher.py:finish():175] shutting down file pusher
+2023-12-20 22:41:14,698 DEBUG   HandlerThread:62827 [handler.py:handle_request():146] handle_request: poll_exit
+2023-12-20 22:41:14,699 DEBUG   SenderThread:62827 [sender.py:send_request():409] send_request: poll_exit
+2023-12-20 22:41:15,084 INFO    wandb-upload_3:62827 [upload_job.py:push():131] Uploaded file /Users/marcinbialek/PycharmProjects/ai_project_lab/wandb/run-20231220_224045-cd8kwskp/files/output.log
+2023-12-20 22:41:15,084 INFO    wandb-upload_4:62827 [upload_job.py:push():131] Uploaded file /Users/marcinbialek/PycharmProjects/ai_project_lab/wandb/run-20231220_224045-cd8kwskp/files/config.yaml
+2023-12-20 22:41:15,176 INFO    wandb-upload_0:62827 [upload_job.py:push():131] Uploaded file /Users/marcinbialek/PycharmProjects/ai_project_lab/wandb/run-20231220_224045-cd8kwskp/files/requirements.txt
+2023-12-20 22:41:15,224 INFO    wandb-upload_1:62827 [upload_job.py:push():131] Uploaded file /Users/marcinbialek/PycharmProjects/ai_project_lab/wandb/run-20231220_224045-cd8kwskp/files/wandb-summary.json
+2023-12-20 22:41:15,366 INFO    wandb-upload_2:62827 [upload_job.py:push():131] Uploaded file /var/folders/p8/4_rxdkgx5kv0dn2b44y3f2qw0000gn/T/tmpj38qov9fwandb/iauswf6w-model-best.h5
+2023-12-20 22:41:15,572 INFO    Thread-11 (_thread_body):62827 [sender.py:transition_state():617] send defer: 11
+2023-12-20 22:41:15,573 DEBUG   HandlerThread:62827 [handler.py:handle_request():146] handle_request: defer
+2023-12-20 22:41:15,573 INFO    HandlerThread:62827 [handler.py:handle_request_defer():172] handle defer: 11
+2023-12-20 22:41:15,574 DEBUG   SenderThread:62827 [sender.py:send_request():409] send_request: defer
+2023-12-20 22:41:15,574 INFO    SenderThread:62827 [sender.py:send_request_defer():613] handle sender defer: 11
+2023-12-20 22:41:15,574 INFO    SenderThread:62827 [file_pusher.py:join():181] waiting for file pusher
+2023-12-20 22:41:15,574 INFO    SenderThread:62827 [sender.py:transition_state():617] send defer: 12
+2023-12-20 22:41:15,574 DEBUG   HandlerThread:62827 [handler.py:handle_request():146] handle_request: defer
+2023-12-20 22:41:15,574 INFO    HandlerThread:62827 [handler.py:handle_request_defer():172] handle defer: 12
+2023-12-20 22:41:15,575 DEBUG   SenderThread:62827 [sender.py:send_request():409] send_request: defer
+2023-12-20 22:41:15,575 INFO    SenderThread:62827 [sender.py:send_request_defer():613] handle sender defer: 12
+2023-12-20 22:41:15,575 INFO    SenderThread:62827 [file_stream.py:finish():595] file stream finish called
+2023-12-20 22:41:15,700 DEBUG   HandlerThread:62827 [handler.py:handle_request():146] handle_request: poll_exit
+2023-12-20 22:41:15,854 INFO    SenderThread:62827 [file_stream.py:finish():599] file stream finish is done
+2023-12-20 22:41:15,854 INFO    SenderThread:62827 [sender.py:transition_state():617] send defer: 13
+2023-12-20 22:41:15,855 DEBUG   SenderThread:62827 [sender.py:send_request():409] send_request: poll_exit
+2023-12-20 22:41:15,855 DEBUG   HandlerThread:62827 [handler.py:handle_request():146] handle_request: defer
+2023-12-20 22:41:15,855 INFO    HandlerThread:62827 [handler.py:handle_request_defer():172] handle defer: 13
+2023-12-20 22:41:15,855 DEBUG   SenderThread:62827 [sender.py:send_request():409] send_request: defer
+2023-12-20 22:41:15,856 INFO    SenderThread:62827 [sender.py:send_request_defer():613] handle sender defer: 13
+2023-12-20 22:41:15,856 INFO    SenderThread:62827 [sender.py:transition_state():617] send defer: 14
+2023-12-20 22:41:15,856 DEBUG   HandlerThread:62827 [handler.py:handle_request():146] handle_request: defer
+2023-12-20 22:41:15,856 DEBUG   SenderThread:62827 [sender.py:send():382] send: final
+2023-12-20 22:41:15,856 INFO    HandlerThread:62827 [handler.py:handle_request_defer():172] handle defer: 14
+2023-12-20 22:41:15,856 DEBUG   SenderThread:62827 [sender.py:send():382] send: footer
+2023-12-20 22:41:15,856 DEBUG   SenderThread:62827 [sender.py:send_request():409] send_request: defer
+2023-12-20 22:41:15,856 INFO    SenderThread:62827 [sender.py:send_request_defer():613] handle sender defer: 14
+2023-12-20 22:41:15,857 DEBUG   HandlerThread:62827 [handler.py:handle_request():146] handle_request: poll_exit
+2023-12-20 22:41:15,857 DEBUG   SenderThread:62827 [sender.py:send_request():409] send_request: poll_exit
+2023-12-20 22:41:15,858 DEBUG   HandlerThread:62827 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-20 22:41:15,858 DEBUG   HandlerThread:62827 [handler.py:handle_request():146] handle_request: server_info
+2023-12-20 22:41:15,859 DEBUG   HandlerThread:62827 [handler.py:handle_request():146] handle_request: get_summary
+2023-12-20 22:41:15,859 DEBUG   HandlerThread:62827 [handler.py:handle_request():146] handle_request: sampled_history
+2023-12-20 22:41:15,859 DEBUG   HandlerThread:62827 [handler.py:handle_request():146] handle_request: job_info
+2023-12-20 22:41:15,859 DEBUG   SenderThread:62827 [sender.py:send_request():409] send_request: server_info
+2023-12-20 22:41:16,025 DEBUG   SenderThread:62827 [sender.py:send_request():409] send_request: job_info
+2023-12-20 22:41:16,026 DEBUG   HandlerThread:62827 [handler.py:handle_request():146] handle_request: shutdown
+2023-12-20 22:41:16,027 INFO    HandlerThread:62827 [handler.py:finish():866] shutting down handler
+2023-12-20 22:41:16,865 INFO    WriterThread:62827 [datastore.py:close():294] close: /Users/marcinbialek/PycharmProjects/ai_project_lab/wandb/run-20231220_224045-cd8kwskp/run-cd8kwskp.wandb
+2023-12-20 22:41:17,028 INFO    SenderThread:62827 [sender.py:finish():1548] shutting down sender
+2023-12-20 22:41:17,028 INFO    SenderThread:62827 [file_pusher.py:finish():175] shutting down file pusher
+2023-12-20 22:41:17,028 INFO    SenderThread:62827 [file_pusher.py:join():181] waiting for file pusher

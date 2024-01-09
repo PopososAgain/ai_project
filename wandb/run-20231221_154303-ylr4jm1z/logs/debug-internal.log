@@ -1,0 +1,64 @@
+2023-12-21 15:43:03,429 INFO    StreamThr :64484 [internal.py:wandb_internal():86] W&B internal server running at pid: 64484, started at: 2023-12-21 15:43:03.428498
+2023-12-21 15:43:03,430 DEBUG   HandlerThread:64484 [handler.py:handle_request():146] handle_request: status
+2023-12-21 15:43:03,439 INFO    WriterThread:64484 [datastore.py:open_for_write():85] open: /Users/marcinbialek/PycharmProjects/ai_project_lab/wandb/run-20231221_154303-ylr4jm1z/run-ylr4jm1z.wandb
+2023-12-21 15:43:03,439 DEBUG   SenderThread:64484 [sender.py:send():382] send: header
+2023-12-21 15:43:03,439 DEBUG   SenderThread:64484 [sender.py:send():382] send: run
+2023-12-21 15:43:04,213 INFO    SenderThread:64484 [dir_watcher.py:__init__():211] watching files in: /Users/marcinbialek/PycharmProjects/ai_project_lab/wandb/run-20231221_154303-ylr4jm1z/files
+2023-12-21 15:43:04,214 INFO    SenderThread:64484 [sender.py:_start_run_threads():1136] run started: ylr4jm1z with start time 1703169783.429471
+2023-12-21 15:43:04,220 DEBUG   HandlerThread:64484 [handler.py:handle_request():146] handle_request: check_version
+2023-12-21 15:43:04,220 DEBUG   SenderThread:64484 [sender.py:send_request():409] send_request: check_version
+2023-12-21 15:43:05,109 DEBUG   HandlerThread:64484 [handler.py:handle_request():146] handle_request: run_start
+2023-12-21 15:43:05,119 DEBUG   HandlerThread:64484 [system_info.py:__init__():32] System info init
+2023-12-21 15:43:05,119 DEBUG   HandlerThread:64484 [system_info.py:__init__():47] System info init done
+2023-12-21 15:43:05,119 INFO    HandlerThread:64484 [system_monitor.py:start():194] Starting system monitor
+2023-12-21 15:43:05,119 INFO    SystemMonitor:64484 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2023-12-21 15:43:05,119 INFO    HandlerThread:64484 [system_monitor.py:probe():214] Collecting system info
+2023-12-21 15:43:05,120 INFO    SystemMonitor:64484 [interfaces.py:start():190] Started cpu monitoring
+2023-12-21 15:43:05,120 DEBUG   HandlerThread:64484 [system_info.py:probe():196] Probing system
+2023-12-21 15:43:05,120 INFO    SystemMonitor:64484 [interfaces.py:start():190] Started disk monitoring
+2023-12-21 15:43:05,121 INFO    SystemMonitor:64484 [interfaces.py:start():190] Started gpuapple monitoring
+2023-12-21 15:43:05,128 INFO    SystemMonitor:64484 [interfaces.py:start():190] Started memory monitoring
+2023-12-21 15:43:05,129 INFO    SystemMonitor:64484 [interfaces.py:start():190] Started network monitoring
+2023-12-21 15:43:05,134 DEBUG   HandlerThread:64484 [gitlib.py:_init_repo():56] git repository is invalid
+2023-12-21 15:43:05,134 DEBUG   HandlerThread:64484 [system_info.py:probe():244] Probing system done
+2023-12-21 15:43:05,134 DEBUG   HandlerThread:64484 [system_monitor.py:probe():223] {'os': 'macOS-14.1-arm64-arm-64bit', 'python': '3.11.2', 'heartbeatAt': '2023-12-21T14:43:05.121034', 'startedAt': '2023-12-21T14:43:03.417064', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '/Users/marcinbialek/PycharmProjects/ai_project_lab/main.py', 'codePathLocal': 'main.py', 'codePath': 'main.py', 'host': 'Marcins-MacBook-Air.local', 'username': 'marcinbialek', 'executable': '/Users/marcinbialek/PycharmProjects/ai_project_lab/.venv/bin/python', 'cpu_count': 8, 'cpu_count_logical': 8, 'disk': {'/': {'total': 228.27386474609375, 'used': 9.569572448730469}}, 'gpuapple': {'type': 'arm', 'vendor': 'Apple'}, 'memory': {'total': 8.0}}
+2023-12-21 15:43:05,134 INFO    HandlerThread:64484 [system_monitor.py:probe():224] Finished collecting system info
+2023-12-21 15:43:05,134 INFO    HandlerThread:64484 [system_monitor.py:probe():227] Publishing system info
+2023-12-21 15:43:05,135 DEBUG   HandlerThread:64484 [system_info.py:_save_pip():52] Saving list of pip packages installed into the current environment
+2023-12-21 15:43:05,135 DEBUG   HandlerThread:64484 [system_info.py:_save_pip():68] Saving pip packages done
+2023-12-21 15:43:05,136 INFO    HandlerThread:64484 [system_monitor.py:probe():229] Finished publishing system info
+2023-12-21 15:43:05,141 DEBUG   SenderThread:64484 [sender.py:send():382] send: files
+2023-12-21 15:43:05,141 INFO    SenderThread:64484 [sender.py:_save_file():1392] saving file wandb-metadata.json with policy now
+2023-12-21 15:43:05,144 DEBUG   HandlerThread:64484 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-21 15:43:05,145 DEBUG   HandlerThread:64484 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-21 15:43:05,145 DEBUG   SenderThread:64484 [sender.py:send_request():409] send_request: stop_status
+2023-12-21 15:43:05,216 INFO    Thread-12 :64484 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/marcinbialek/PycharmProjects/ai_project_lab/wandb/run-20231221_154303-ylr4jm1z/files/wandb-metadata.json
+2023-12-21 15:43:05,217 INFO    Thread-12 :64484 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/marcinbialek/PycharmProjects/ai_project_lab/wandb/run-20231221_154303-ylr4jm1z/files/requirements.txt
+2023-12-21 15:43:05,230 DEBUG   HandlerThread:64484 [handler.py:handle_request():146] handle_request: get_summary
+2023-12-21 15:43:05,729 DEBUG   SenderThread:64484 [sender.py:send():382] send: telemetry
+2023-12-21 15:43:05,729 DEBUG   SenderThread:64484 [sender.py:send():382] send: telemetry
+2023-12-21 15:43:05,729 DEBUG   SenderThread:64484 [sender.py:send():382] send: telemetry
+2023-12-21 15:43:05,729 DEBUG   SenderThread:64484 [sender.py:send():382] send: files
+2023-12-21 15:43:05,729 INFO    SenderThread:64484 [sender.py:_save_file():1392] saving file model-best.h5 with policy live
+2023-12-21 15:43:05,729 DEBUG   SenderThread:64484 [sender.py:send():382] send: telemetry
+2023-12-21 15:43:06,221 INFO    Thread-12 :64484 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/marcinbialek/PycharmProjects/ai_project_lab/wandb/run-20231221_154303-ylr4jm1z/files/output.log
+2023-12-21 15:43:06,918 INFO    wandb-upload_0:64484 [upload_job.py:push():131] Uploaded file /var/folders/p8/4_rxdkgx5kv0dn2b44y3f2qw0000gn/T/tmpc8iauuibwandb/ihe7uixe-wandb-metadata.json
+2023-12-21 15:43:08,227 INFO    Thread-12 :64484 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/marcinbialek/PycharmProjects/ai_project_lab/wandb/run-20231221_154303-ylr4jm1z/files/output.log
+2023-12-21 15:43:08,450 DEBUG   HandlerThread:64484 [handler.py:handle_request():146] handle_request: status_report
+2023-12-21 15:43:10,237 INFO    Thread-12 :64484 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/marcinbialek/PycharmProjects/ai_project_lab/wandb/run-20231221_154303-ylr4jm1z/files/output.log
+2023-12-21 15:43:13,590 DEBUG   HandlerThread:64484 [handler.py:handle_request():146] handle_request: status_report
+2023-12-21 15:43:18,604 DEBUG   HandlerThread:64484 [handler.py:handle_request():146] handle_request: status_report
+2023-12-21 15:43:20,152 DEBUG   HandlerThread:64484 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-21 15:43:20,155 DEBUG   HandlerThread:64484 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-21 15:43:20,157 DEBUG   SenderThread:64484 [sender.py:send_request():409] send_request: stop_status
+2023-12-21 15:43:24,457 DEBUG   HandlerThread:64484 [handler.py:handle_request():146] handle_request: status_report
+2023-12-21 15:43:29,475 DEBUG   HandlerThread:64484 [handler.py:handle_request():146] handle_request: status_report
+2023-12-21 15:43:34,493 DEBUG   HandlerThread:64484 [handler.py:handle_request():146] handle_request: status_report
+2023-12-21 15:43:35,148 DEBUG   HandlerThread:64484 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-21 15:43:35,149 DEBUG   SenderThread:64484 [sender.py:send_request():409] send_request: stop_status
+2023-12-21 15:43:35,150 DEBUG   HandlerThread:64484 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-21 15:43:35,337 INFO    Thread-12 :64484 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/marcinbialek/PycharmProjects/ai_project_lab/wandb/run-20231221_154303-ylr4jm1z/files/config.yaml
+2023-12-21 15:43:40,416 DEBUG   HandlerThread:64484 [handler.py:handle_request():146] handle_request: status_report
+2023-12-21 15:43:45,430 DEBUG   HandlerThread:64484 [handler.py:handle_request():146] handle_request: status_report
+2023-12-21 15:43:50,406 INFO    Thread-12 :64484 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/marcinbialek/PycharmProjects/ai_project_lab/wandb/run-20231221_154303-ylr4jm1z/files/output.log
+2023-12-21 15:43:50,620 DEBUG   HandlerThread:64484 [handler.py:handle_request():146] handle_request: status_report

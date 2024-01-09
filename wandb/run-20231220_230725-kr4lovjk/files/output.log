@@ -1,0 +1,3 @@
+Create sweep with ID: etksp6ey
+Sweep URL: https://wandb.ai/opposes/your-project-name/sweeps/etksp6ey
+wandb: WARNING Calling wandb.login() after wandb.init() has no effect.

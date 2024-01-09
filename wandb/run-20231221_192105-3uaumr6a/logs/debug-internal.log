@@ -1,0 +1,8 @@
+2023-12-21 19:21:05,678 INFO    StreamThr :66210 [internal.py:wandb_internal():86] W&B internal server running at pid: 66210, started at: 2023-12-21 19:21:05.677972
+2023-12-21 19:21:05,679 DEBUG   HandlerThread:66210 [handler.py:handle_request():146] handle_request: status
+2023-12-21 19:21:05,688 INFO    WriterThread:66210 [datastore.py:open_for_write():85] open: /Users/marcinbialek/PycharmProjects/ai_project_lab/wandb/run-20231221_192105-3uaumr6a/run-3uaumr6a.wandb
+2023-12-21 19:21:05,688 DEBUG   SenderThread:66210 [sender.py:send():382] send: header
+2023-12-21 19:21:05,689 DEBUG   SenderThread:66210 [sender.py:send():382] send: run
+2023-12-21 19:21:06,312 INFO    SenderThread:66210 [dir_watcher.py:__init__():211] watching files in: /Users/marcinbialek/PycharmProjects/ai_project_lab/wandb/run-20231221_192105-3uaumr6a/files
+2023-12-21 19:21:06,312 INFO    SenderThread:66210 [sender.py:_start_run_threads():1136] run started: 3uaumr6a with start time 1703182865.679701
+2023-12-21 19:21:11,333 DEBUG   HandlerThread:66210 [handler.py:handle_request():146] handle_request: status_report

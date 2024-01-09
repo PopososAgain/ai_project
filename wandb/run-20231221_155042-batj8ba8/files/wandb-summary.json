@@ -1,0 +1,1 @@
+{"Test Loss": 3914.98095703125, "Test MAE": 48.9824104309082, "_timestamp": 1703170250.321296, "_runtime": 8.032007932662964, "_step": 100, "Epoch": 99, "Training Loss": 3462.3173828125, "Validation Loss": 3201.21484375, "_wandb": {"runtime": 7}}

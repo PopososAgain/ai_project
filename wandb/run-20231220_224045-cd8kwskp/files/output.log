@@ -1,0 +1,58 @@
+Epoch 1/10
+ 1/25 [>.............................] - ETA: 2s - loss: 25509.9297
+wandb: WARNING The save_model argument by default saves the model in the HDF5 format that cannot save custom objects like subclassed models and custom layers. This behavior will be deprecated in a future release in favor of the SavedModel format. Meanwhile, the HDF5 model is saved as W&B files and the SavedModel as W&B Artifacts.
+/Users/marcinbialek/PycharmProjects/ai_project_lab/.venv/lib/python3.11/site-packages/keras/src/engine/training.py:3103: UserWarning: You are saving your model as an HDF5 file via `model.save()`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')`.
+  saving_api.save_model(
+25/25 [==============================] - 1s 20ms/step - loss: 37646.4648 - val_loss: 38630.4766
+Epoch 2/10
+ 1/25 [>.............................] - ETA: 0s - loss: 35062.9805
+/Users/marcinbialek/PycharmProjects/ai_project_lab/.venv/lib/python3.11/site-packages/keras/src/engine/training.py:3103: UserWarning: You are saving your model as an HDF5 file via `model.save()`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')`.
+  saving_api.save_model(
+25/25 [==============================] - 0s 15ms/step - loss: 37499.9727 - val_loss: 38486.8047
+Epoch 3/10
+ 1/25 [>.............................] - ETA: 0s - loss: 35984.1719
+/Users/marcinbialek/PycharmProjects/ai_project_lab/.venv/lib/python3.11/site-packages/keras/src/engine/training.py:3103: UserWarning: You are saving your model as an HDF5 file via `model.save()`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')`.
+  saving_api.save_model(
+25/25 [==============================] - 0s 15ms/step - loss: 37338.8711 - val_loss: 38309.8906
+Epoch 4/10
+ 1/25 [>.............................] - ETA: 0s - loss: 39998.9023
+/Users/marcinbialek/PycharmProjects/ai_project_lab/.venv/lib/python3.11/site-packages/keras/src/engine/training.py:3103: UserWarning: You are saving your model as an HDF5 file via `model.save()`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')`.
+  saving_api.save_model(
+wandb: Adding directory to artifact (/Users/marcinbialek/PycharmProjects/ai_project_lab/wandb/run-20231220_224045-cd8kwskp/files/model-best)... Done. 0.0s
+/Users/marcinbialek/PycharmProjects/ai_project_lab/.venv/lib/python3.11/site-packages/keras/src/engine/training.py:3103: UserWarning: You are saving your model as an HDF5 file via `model.save()`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')`.
+  saving_api.save_model(
+25/25 [==============================] - 0s 15ms/step - loss: 37143.5430 - val_loss: 38089.3516
+Epoch 5/10
+ 1/25 [>.............................] - ETA: 0s - loss: 25110.6602
+/Users/marcinbialek/PycharmProjects/ai_project_lab/.venv/lib/python3.11/site-packages/keras/src/engine/training.py:3103: UserWarning: You are saving your model as an HDF5 file via `model.save()`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')`.
+  saving_api.save_model(
+25/25 [==============================] - 0s 14ms/step - loss: 36895.6914 - val_loss: 37816.9688
+Epoch 6/10
+ 1/25 [>.............................] - ETA: 0s - loss: 22879.0078
+/Users/marcinbialek/PycharmProjects/ai_project_lab/.venv/lib/python3.11/site-packages/keras/src/engine/training.py:3103: UserWarning: You are saving your model as an HDF5 file via `model.save()`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')`.
+  saving_api.save_model(
+25/25 [==============================] - 0s 15ms/step - loss: 36580.8789 - val_loss: 37472.6641
+Epoch 7/10
+ 1/25 [>.............................] - ETA: 0s - loss: 36697.1484
+/Users/marcinbialek/PycharmProjects/ai_project_lab/.venv/lib/python3.11/site-packages/keras/src/engine/training.py:3103: UserWarning: You are saving your model as an HDF5 file via `model.save()`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')`.
+  saving_api.save_model(
+25/25 [==============================] - 0s 15ms/step - loss: 36194.3203 - val_loss: 37032.1914
+Epoch 8/10
+25/25 [==============================] - 0s 14ms/step - loss: 35712.2031 - val_loss: 36513.9414
+Epoch 9/10
+ 1/25 [>.............................] - ETA: 0s - loss: 20446.2617
+/Users/marcinbialek/PycharmProjects/ai_project_lab/.venv/lib/python3.11/site-packages/keras/src/engine/training.py:3103: UserWarning: You are saving your model as an HDF5 file via `model.save()`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')`.
+  saving_api.save_model(
+25/25 [==============================] - 0s 15ms/step - loss: 35122.3281 - val_loss: 35904.4375
+Epoch 10/10
+ 1/25 [>.............................] - ETA: 0s - loss: 33698.3008
+/Users/marcinbialek/PycharmProjects/ai_project_lab/.venv/lib/python3.11/site-packages/keras/src/engine/training.py:3103: UserWarning: You are saving your model as an HDF5 file via `model.save()`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')`.
+  saving_api.save_model(
+25/25 [==============================] - 0s 16ms/step - loss: 34442.3164 - val_loss: 35178.7383
+7/7 [==============================] - 0s 318us/step
+1/1 [==============================] - 0s 8ms/step
+User Input: [[0.57448608 0.56848239 0.03602081 0.65434279 0.07792448 0.14484471
+  0.32895664 0.88604021 0.13484573 0.41577876 0.76374213 0.67057576
+  0.633362   0.18082335 0.0601115  0.63960082 0.158317   0.95686456
+  0.33977457 0.08442045]]
+Model Prediction: [[13.533846]]

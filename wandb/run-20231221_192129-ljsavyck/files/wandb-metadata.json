@@ -1,0 +1,31 @@
+{
+    "os": "macOS-14.1-arm64-arm-64bit",
+    "python": "3.11.2",
+    "heartbeatAt": "2023-12-21T18:21:30.675729",
+    "startedAt": "2023-12-21T18:21:29.799203",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "/Users/marcinbialek/PycharmProjects/ai_project_lab/main.py",
+    "codePathLocal": "main.py",
+    "codePath": "main.py",
+    "host": "Marcins-MacBook-Air.local",
+    "username": "marcinbialek",
+    "executable": "/Users/marcinbialek/PycharmProjects/ai_project_lab/.venv/bin/python",
+    "cpu_count": 8,
+    "cpu_count_logical": 8,
+    "disk": {
+        "/": {
+            "total": 228.27386474609375,
+            "used": 9.569572448730469
+        }
+    },
+    "gpuapple": {
+        "type": "arm",
+        "vendor": "Apple"
+    },
+    "memory": {
+        "total": 8.0
+    }
+}
